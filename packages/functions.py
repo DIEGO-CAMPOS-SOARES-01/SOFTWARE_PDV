@@ -66,6 +66,7 @@ def clear():
 def fill_tables(self):
     update_table('agenda', self.table_tasks)
     update_table('cliente', self.table_clients)
+    update_table('fornecedor', self.table_provider)
     update_table('produto', self.table_products)
     #update_table('usuario', self.table_users)
     update_table('transferencia', self.table_cashier)
@@ -75,14 +76,13 @@ def fill_tables(self):
 def update(column, table):
     info, ok = QInputDialog.getText(None, "Atualizar", "INSIRA NOVO DADO")
     if ok:
-        try:
-            codigo = table.item(table.currentRow(), 0).text()
-            label = table.horizontalHeaderItem(table.currentColumn()).text().lower()
-            update(column, label, info, codigo)
-            update_table(column, table)
-            show_messagebox('ATUALIZADO', "Informaçao Atualizada Com Sucesso")
-        except:
-            show_messagebox('ERROR', "Selecione Informaçao A ser Editada")
+        codigo = table.item(table.currentRow(), 0).text()
+        label = table.horizontalHeaderItem(table.currentColumn()).text().lower()
+        update_sql(column, label, info, codigo)
+        update_table(column, table)
+        #show_messagebox('ATUALIZADO', "Informaçao Atualizada Com Sucesso")
+
+        #show_messagebox('ERROR', "Selecione Informaçao A ser Editada")
     else:
         return None
 

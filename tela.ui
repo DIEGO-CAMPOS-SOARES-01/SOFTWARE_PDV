@@ -25,7 +25,7 @@
    <string>SOFTWARE VIDRAÇARIA</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="../icons/images.qrc">
+   <iconset resource="../../Documents/local_archives/icons/images.qrc">
     <normaloff>:/Icons/jc_icon.png</normaloff>:/Icons/jc_icon.png</iconset>
   </property>
   <property name="styleSheet">
@@ -127,7 +127,7 @@ color:white;
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="../icons/images.qrc">
+         <iconset resource="../../Documents/local_archives/icons/images.qrc">
           <normaloff>:/Icons/Clientes.png</normaloff>:/Icons/Clientes.png</iconset>
         </property>
         <property name="iconSize">
@@ -147,7 +147,7 @@ color:white;
          </sizepolicy>
         </property>
         <property name="icon">
-         <iconset resource="../icons/images.qrc">
+         <iconset resource="../../Documents/local_archives/icons/images.qrc">
           <normaloff>:/Icons/Fornecedor.png</normaloff>:/Icons/Fornecedor.png</iconset>
         </property>
         <property name="iconSize">
@@ -170,7 +170,7 @@ color:white;
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="../icons/images.qrc">
+         <iconset resource="../../Documents/local_archives/icons/images.qrc">
           <normaloff>:/Icons/agenda.png</normaloff>:/Icons/agenda.png</iconset>
         </property>
         <property name="iconSize">
@@ -193,7 +193,7 @@ color:white;
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="../icons/images.qrc">
+         <iconset resource="../../Documents/local_archives/icons/images.qrc">
           <normaloff>:/Icons/Caixa.png</normaloff>:/Icons/Caixa.png</iconset>
         </property>
         <property name="iconSize">
@@ -216,7 +216,7 @@ color:white;
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="../icons/images.qrc">
+         <iconset resource="../../Documents/local_archives/icons/images.qrc">
           <normaloff>:/Icons/Produtos.png</normaloff>:/Icons/Produtos.png</iconset>
         </property>
         <property name="iconSize">
@@ -236,7 +236,7 @@ color:white;
          </sizepolicy>
         </property>
         <property name="icon">
-         <iconset resource="../icons/images.qrc">
+         <iconset resource="../../Documents/local_archives/icons/images.qrc">
           <normaloff>:/Icons/Menu_os.png.png</normaloff>:/Icons/Menu_os.png.png</iconset>
         </property>
         <property name="iconSize">
@@ -273,7 +273,7 @@ color:white;
         </sizepolicy>
        </property>
        <property name="currentIndex">
-        <number>3</number>
+        <number>0</number>
        </property>
        <widget class="QWidget" name="central"/>
        <widget class="QWidget" name="clients">
@@ -463,7 +463,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -486,7 +486,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/editar.png</normaloff>:/Icons/editar.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -509,7 +509,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/Limpar.png</normaloff>:/Icons/Limpar.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -526,7 +526,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -801,7 +801,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -824,7 +824,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/editar.png</normaloff>:/Icons/editar.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -841,7 +841,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/Limpar.png</normaloff>:/Icons/Limpar.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -858,7 +858,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -904,13 +904,16 @@ color:white;
                  <set>QAbstractItemView::NoEditTriggers</set>
                 </property>
                 <property name="columnCount">
-                 <number>7</number>
+                 <number>8</number>
                 </property>
                 <attribute name="horizontalHeaderMinimumSectionSize">
                  <number>210</number>
                 </attribute>
                 <attribute name="horizontalHeaderDefaultSectionSize">
                  <number>210</number>
+                </attribute>
+                <attribute name="verticalHeaderVisible">
+                 <bool>false</bool>
                 </attribute>
                 <attribute name="verticalHeaderDefaultSectionSize">
                  <number>31</number>
@@ -923,6 +926,11 @@ color:white;
                 <column>
                  <property name="text">
                   <string>Nome</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Tel1</string>
                  </property>
                 </column>
                 <column>
@@ -1128,7 +1136,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -1151,7 +1159,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/editar.png</normaloff>:/Icons/editar.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -1168,7 +1176,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/Limpar.png</normaloff>:/Icons/Limpar.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -1185,7 +1193,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -1456,7 +1464,7 @@ color:white;
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset resource="../icons/images.qrc">
+                     <iconset resource="../../Documents/local_archives/icons/images.qrc">
                       <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
                     </property>
                     <property name="iconSize">
@@ -1479,7 +1487,7 @@ color:white;
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset resource="../icons/images.qrc">
+                     <iconset resource="../../Documents/local_archives/icons/images.qrc">
                       <normaloff>:/Icons/editar.png</normaloff>:/Icons/editar.png</iconset>
                     </property>
                     <property name="iconSize">
@@ -1502,7 +1510,7 @@ color:white;
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset resource="../icons/images.qrc">
+                     <iconset resource="../../Documents/local_archives/icons/images.qrc">
                       <normaloff>:/Icons/apagar.png</normaloff>:/Icons/apagar.png</iconset>
                     </property>
                     <property name="iconSize">
@@ -1525,7 +1533,7 @@ color:white;
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset resource="../icons/images.qrc">
+                     <iconset resource="../../Documents/local_archives/icons/images.qrc">
                       <normaloff>:/Icons/imprimir.png</normaloff>:/Icons/imprimir.png</iconset>
                     </property>
                     <property name="iconSize">
@@ -1674,7 +1682,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -2080,7 +2088,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -2103,7 +2111,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/editar.png</normaloff>:/Icons/editar.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -2126,7 +2134,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/Limpar.png</normaloff>:/Icons/Limpar.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -2143,7 +2151,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -2424,7 +2432,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -2447,7 +2455,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/editar.png</normaloff>:/Icons/editar.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -2470,7 +2478,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/Limpar.png</normaloff>:/Icons/Limpar.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -2487,7 +2495,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/imprimir.png</normaloff>:/Icons/imprimir.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -2504,7 +2512,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -2980,7 +2988,7 @@ color:white;
                  <string/>
                 </property>
                 <property name="icon">
-                 <iconset resource="../icons/images.qrc">
+                 <iconset resource="../../Documents/local_archives/icons/images.qrc">
                   <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                 </property>
                 <property name="iconSize">
@@ -3036,293 +3044,6 @@ color:white;
             <property name="bottomMargin">
              <number>0</number>
             </property>
-            <item row="0" column="0">
-             <layout class="QVBoxLayout" name="verticalLayout_37">
-              <property name="topMargin">
-               <number>0</number>
-              </property>
-              <item>
-               <widget class="QLabel" name="label_17">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="font">
-                 <font>
-                  <pointsize>10</pointsize>
-                 </font>
-                </property>
-                <property name="text">
-                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Nome &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QLineEdit" name="nm_provider">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                  <horstretch>0</horstretch>
-                  <verstretch>44</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="minimumSize">
-                 <size>
-                  <width>420</width>
-                  <height>30</height>
-                 </size>
-                </property>
-                <property name="sizeIncrement">
-                 <size>
-                  <width>0</width>
-                  <height>0</height>
-                 </size>
-                </property>
-                <property name="font">
-                 <font>
-                  <pointsize>10</pointsize>
-                  <kerning>true</kerning>
-                 </font>
-                </property>
-                <property name="styleSheet">
-                 <string notr="true"/>
-                </property>
-                <property name="frame">
-                 <bool>true</bool>
-                </property>
-                <property name="clearButtonEnabled">
-                 <bool>false</bool>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </item>
-            <item row="2" column="0">
-             <layout class="QHBoxLayout" name="horizontalLayout_45">
-              <item>
-               <layout class="QVBoxLayout" name="verticalLayout_60">
-                <item>
-                 <widget class="QLabel" name="label_19">
-                  <property name="font">
-                   <font>
-                    <pointsize>10</pointsize>
-                   </font>
-                  </property>
-                  <property name="text">
-                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Telefone (1)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                  </property>
-                 </widget>
-                </item>
-                <item>
-                 <widget class="QLineEdit" name="tel1_provider">
-                  <property name="sizePolicy">
-                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-                    <horstretch>0</horstretch>
-                    <verstretch>0</verstretch>
-                   </sizepolicy>
-                  </property>
-                  <property name="minimumSize">
-                   <size>
-                    <width>0</width>
-                    <height>30</height>
-                   </size>
-                  </property>
-                  <property name="font">
-                   <font>
-                    <pointsize>10</pointsize>
-                   </font>
-                  </property>
-                 </widget>
-                </item>
-               </layout>
-              </item>
-              <item>
-               <layout class="QVBoxLayout" name="verticalLayout_63">
-                <item>
-                 <widget class="QLabel" name="label_20">
-                  <property name="font">
-                   <font>
-                    <pointsize>10</pointsize>
-                   </font>
-                  </property>
-                  <property name="text">
-                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Telefone (2)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                  </property>
-                 </widget>
-                </item>
-                <item>
-                 <widget class="QLineEdit" name="tel2_provider">
-                  <property name="sizePolicy">
-                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-                    <horstretch>0</horstretch>
-                    <verstretch>0</verstretch>
-                   </sizepolicy>
-                  </property>
-                  <property name="minimumSize">
-                   <size>
-                    <width>0</width>
-                    <height>30</height>
-                   </size>
-                  </property>
-                  <property name="font">
-                   <font>
-                    <pointsize>10</pointsize>
-                   </font>
-                  </property>
-                 </widget>
-                </item>
-               </layout>
-              </item>
-             </layout>
-            </item>
-            <item row="4" column="1">
-             <layout class="QVBoxLayout" name="verticalLayout_61">
-              <item>
-               <widget class="QPushButton" name="back_provider">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="minimumSize">
-                 <size>
-                  <width>0</width>
-                  <height>70</height>
-                 </size>
-                </property>
-                <property name="font">
-                 <font>
-                  <pointsize>10</pointsize>
-                 </font>
-                </property>
-                <property name="text">
-                 <string/>
-                </property>
-                <property name="icon">
-                 <iconset resource="../icons/images.qrc">
-                  <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
-                </property>
-                <property name="iconSize">
-                 <size>
-                  <width>32</width>
-                  <height>32</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QPushButton" name="cancel_provider">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="minimumSize">
-                 <size>
-                  <width>0</width>
-                  <height>70</height>
-                 </size>
-                </property>
-                <property name="font">
-                 <font>
-                  <pointsize>10</pointsize>
-                 </font>
-                </property>
-                <property name="text">
-                 <string>Cancelar</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QPushButton" name="save_provider">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="minimumSize">
-                 <size>
-                  <width>0</width>
-                  <height>70</height>
-                 </size>
-                </property>
-                <property name="font">
-                 <font>
-                  <pointsize>10</pointsize>
-                 </font>
-                </property>
-                <property name="text">
-                 <string>Salvar Cadastro</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </item>
-            <item row="4" column="0">
-             <layout class="QVBoxLayout" name="verticalLayout_59">
-              <property name="spacing">
-               <number>0</number>
-              </property>
-              <property name="topMargin">
-               <number>0</number>
-              </property>
-              <property name="rightMargin">
-               <number>0</number>
-              </property>
-              <item>
-               <widget class="QLabel" name="label_26">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="font">
-                 <font>
-                  <pointsize>10</pointsize>
-                 </font>
-                </property>
-                <property name="text">
-                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Observações&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                </property>
-                <property name="textFormat">
-                 <enum>Qt::AutoText</enum>
-                </property>
-                <property name="scaledContents">
-                 <bool>false</bool>
-                </property>
-                <property name="indent">
-                 <number>-1</number>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QTextEdit" name="obs_provider">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>16777215</width>
-                  <height>100</height>
-                 </size>
-                </property>
-                <property name="font">
-                 <font>
-                  <pointsize>10</pointsize>
-                 </font>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </item>
             <item row="1" column="0">
              <layout class="QHBoxLayout" name="horizontalLayout_47">
               <item>
@@ -3416,6 +3137,325 @@ color:white;
                  </widget>
                 </item>
                </layout>
+              </item>
+             </layout>
+            </item>
+            <item row="0" column="0">
+             <layout class="QVBoxLayout" name="verticalLayout_37">
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QLabel" name="label_17">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Nome &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="nome_provider">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>44</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>420</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="sizeIncrement">
+                 <size>
+                  <width>0</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                  <kerning>true</kerning>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
+                <property name="frame">
+                 <bool>true</bool>
+                </property>
+                <property name="clearButtonEnabled">
+                 <bool>false</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="5" column="0">
+             <layout class="QVBoxLayout" name="verticalLayout_59">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QLabel" name="label_26">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Observações&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="textFormat">
+                 <enum>Qt::AutoText</enum>
+                </property>
+                <property name="scaledContents">
+                 <bool>false</bool>
+                </property>
+                <property name="indent">
+                 <number>-1</number>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QTextEdit" name="obs_provider">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>100</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="5" column="1">
+             <layout class="QVBoxLayout" name="verticalLayout_61">
+              <item>
+               <widget class="QPushButton" name="back_provider">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>70</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                  <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>32</width>
+                  <height>32</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="cancel_provider">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>70</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Cancelar</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="save_provider">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>70</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Salvar Cadastro</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="3" column="0">
+             <layout class="QHBoxLayout" name="horizontalLayout_45">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_60">
+                <item>
+                 <widget class="QLabel" name="label_19">
+                  <property name="font">
+                   <font>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Telefone (1)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="tel1_provider">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_63">
+                <item>
+                 <widget class="QLabel" name="label_20">
+                  <property name="font">
+                   <font>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Telefone (2)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="tel2_provider">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+            <item row="2" column="0">
+             <layout class="QVBoxLayout" name="verticalLayout_7">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QLabel" name="label_3">
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Email</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="email_provider">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>30</height>
+                 </size>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -3780,7 +3820,7 @@ color:white;
                  <string/>
                 </property>
                 <property name="icon">
-                 <iconset resource="../icons/images.qrc">
+                 <iconset resource="../../Documents/local_archives/icons/images.qrc">
                   <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                 </property>
                 <property name="iconSize">
@@ -3912,7 +3952,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../icons/images.qrc">
+                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
                     <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -4464,7 +4504,7 @@ color:white;
                <string/>
               </property>
               <property name="icon">
-               <iconset resource="../icons/images.qrc">
+               <iconset resource="../../Documents/local_archives/icons/images.qrc">
                 <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
               </property>
               <property name="iconSize">
@@ -4815,7 +4855,7 @@ color:white;
                  <string/>
                 </property>
                 <property name="icon">
-                 <iconset resource="../icons/images.qrc">
+                 <iconset resource="../../Documents/local_archives/icons/images.qrc">
                   <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                 </property>
                 <property name="iconSize">
@@ -5551,7 +5591,7 @@ color:white;
                        <string/>
                       </property>
                       <property name="icon">
-                       <iconset resource="../icons/images.qrc">
+                       <iconset resource="../../Documents/local_archives/icons/images.qrc">
                         <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                       </property>
                       <property name="iconSize">
@@ -5839,7 +5879,7 @@ color:white;
   </layout>
  </widget>
  <resources>
-  <include location="../icons/images.qrc"/>
+  <include location="../../Documents/local_archives/icons/images.qrc"/>
  </resources>
  <connections/>
 </ui>

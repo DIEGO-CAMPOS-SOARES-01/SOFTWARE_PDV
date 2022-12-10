@@ -125,12 +125,8 @@ def insert(table,values):
   c.execute(f'INSERT INTO {table} (' + ', '.join(field[1:]) + ')' + f"VALUES {values[0]}")
   con.commit()
 
-
-
-
-
-def update(table,column,info,codigo):
-    c.execute(f"UPDATE {table} set {column} = {info} where codigo = {codigo}")
+def update_sql(table,column,info,codigo):
+    c.execute(f"UPDATE {table} set {column} = '{info}' where codigo = {codigo}")
     con.commit()
 
 def excluir(table, codigo):
@@ -143,13 +139,14 @@ def select_user(user):
     return result
 
 def search_in(collumn,nome):
-    try:
-        c.execute(f"select  * from {collumn} where upper(trim(nome)) = upper('{nome}') or codigo = '{nome}' or upper(descriçao) = upper('{nome}')")
-        result = c.fetchall()
-        return result
-    except:
-        all = select(collumn)
-        return all
+
+    c.execute(f"select  * from {collumn} where upper(trim(nome)) = upper('{nome}') or codigo = {nome} or upper(descriçao) = upper('{nome}')")
+    result = c.fetchall()
+    if result:
+      return result
+    else:
+      return []
+
 
 def select_one_produto(codigo):
   try:
