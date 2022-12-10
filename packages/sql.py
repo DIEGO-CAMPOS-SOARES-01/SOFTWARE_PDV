@@ -1,19 +1,20 @@
 import mysql.connector
 from mysql.connector import Error
+import win32serviceutil
 
-try:
-    con = mysql.connector.connect(host='localhost',database='banco',user='root',password='1234')
-    c= con.cursor(buffered=True)
-    c.execute("select database();")
-    if con.is_connected():
-        db_Info = con.get_server_info()
-        print("Connected to MySQL Server version ", db_Info)
-        
-        record = c.fetchone()
-        print("You're connected to database: ", record)
+win32serviceutil.ServiceFramework.init()
 
-except Error as e:
-    print("Error while connecting to MySQL", e)
+con = mysql.connector.connect(host='localhost',user='root',password='')
+c= con.cursor(buffered=True)
+c.execute("select database();")
+if con.is_connected():
+    db_Info = con.get_server_info()
+    print("Connected to MySQL Server version ", db_Info)
+    
+    record = c.fetchone()
+    print("You're connected to database: ", record)
+
+c.execute("CREATE DATABASE IF NOT EXISTS `banco`")
 
 c.execute("""CREATE TABLE IF NOT EXISTS `banco`.`cliente` (
   `codigo` INT NOT NULL AUTO_INCREMENT,

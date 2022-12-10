@@ -1,8 +1,8 @@
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import Qt
 from datetime import *
-from packages.sql import *
-# from sqlite import *
+#from packages.sql import *
+from packages.sqlite import *
 import ctypes
 from qt_material import *
 
@@ -11,6 +11,7 @@ tempo = datetime.now()
 dt = tempo.strftime("%x")
 user32 = ctypes.windll.user32
 size = user32.GetSystemMetrics(0), user32.GetSystemMetrics(1)
+
 
 def customs(self,app):
     extra = {'font_size': '7px'}
@@ -45,13 +46,12 @@ def update_table(collumn, uitable):
                      uitable.setStyleSheet("font-size:12px;")
                 uitable.resizeColumnsToContents()
         
-def show_messagebox(title, text):
-    msg = QMessageBox()
-    msg.information(None, title, text)
-    #msg.setIcon(QMessageBox.Question)
-    #msg.setWindowTitle(title)
+def show_messagebox(self,title, text):
+    msg = QMessageBox(self)
+    msg.setIcon(QMessageBox.Information)
+    msg.setWindowTitle(title)
     msg.setStyleSheet("font-size:16px;")
-    #msg.setText(str(text))
+    msg.setText(str(text))
     msg.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
     msg.setFixedSize(800,800)
     msg.exec_()
@@ -64,12 +64,12 @@ def clear():
             widget.clear()
 
 def fill_tables(self):
-    update_table('agenda', self.table_tasks)
-    update_table('cliente', self.table_clients)
-    update_table('fornecedor', self.table_provider)
-    update_table('produto', self.table_products)
+    update_table('agenda', self.table_agenda)
+    update_table('Cliente', self.table_Cliente)
+    update_table('fornecedor', self.table_fornecedor)
+    update_table('produto', self.table_produto)
     #update_table('usuario', self.table_users)
-    update_table('transferencia', self.table_cashier)
+    update_table('caixa', self.table_caixa)
     #update_table('os', self.table_os)
 
 
@@ -86,8 +86,8 @@ def update(column, table):
     else:
         return None
 
-def delete(table, uitable):
-    codigo, ok = QInputDialog.getText(None, "EXCLUIR", "INSIRA O CODIGO")
+def delete(self,table, uitable):
+    codigo, ok = QInputDialog.getText(self, "EXCLUIR", "INSIRA O CODIGO")
     if ok:
         excluir(table, codigo)
         update_table(table, uitable)

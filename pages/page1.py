@@ -1,18 +1,18 @@
-from packages.sql import *
-# from sqlite import *
+# from packages.sql import *
+from packages.sqlite import *
 from packages.functions import *
 
 
 def client(self):
-        self.client.clicked.connect(lambda: self.pages.setCurrentWidget(self.clients))
+        self.client.clicked.connect(lambda: self.pages.setCurrentWidget(self.Cliente))
         self.new_client.clicked.connect(lambda: self.pages.setCurrentWidget(self.add_client))
         self.back_1.clicked.connect(lambda: self.pages.setCurrentWidget(self.central))
-        self.back_client.clicked.connect(lambda: self.pages.setCurrentWidget(self.clients))
-        self.delete_client.clicked.connect(lambda: delete('cliente', self.table_clients))
-        self.edit_client.clicked.connect(lambda: update('cliente', self.table_clients))
+        self.back_client.clicked.connect(lambda: self.pages.setCurrentWidget(self.Cliente))
+        self.delete_client.clicked.connect(lambda: delete('cliente', self.table_Cliente))
+        self.edit_client.clicked.connect(lambda: update('Cliente', self.table_Cliente))
         self.cancel_client.clicked.connect(clear)
         self.save_client.clicked.connect(lambda: cadastro_cliente(self))
-        self.search_client.textChanged.connect(lambda: search('cliente', self.search_client, self.table_clients))
+        self.search_client.textChanged.connect(lambda: search('Cliente', self.search_client, self.table_Cliente))
 
 
 def cadastro_cliente(self):
@@ -23,9 +23,8 @@ def cadastro_cliente(self):
     cmpl = self.cmpl.text()
     end = self.end.text()
     lista = [(nm,tel1,tel2,end,cmpl,dt,desc)]
-    for i in lista: str(f'{i}') 
-    insert('cliente',lista)
-    #show_messagebox("CADASTRADO", "Cliente Cadastrado Com Sucesso")
+    insert_sql('Cliente',lista)
+    show_messagebox(self,"CADASTRADO", " Cliente Cadastrado Com Sucesso")
     clear()
-    update_table("cliente", self.table_clients)
-    self.pages.setCurrentWidget(self.clients)
+    update_table('Cliente', self.table_Cliente)
+    self.pages.setCurrentWidget(self.Cliente)

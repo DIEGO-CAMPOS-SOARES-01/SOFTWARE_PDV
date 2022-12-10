@@ -1,19 +1,20 @@
 import os
 import sqlite3
+home_directory = os.path.expanduser( '~' )
+path = os.path.join( home_directory, 'AppData', 'Local' ,'banco.db')
 
-
-con = sqlite3.connect('banco.db')
+con = sqlite3.connect(path)
 c = con.cursor()
 
-c.execute("""CREATE TABLE IF NOT EXISTS Usuario (
-    codigo INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-    nome TEXT,
-    email TEXT,
-    "data" TEXT,
-    perfil TEXT,
-    usuario TEXT,
-    senha TEXT
-);""")
+# c.execute("""CREATE TABLE IF NOT EXISTS Usuario (
+#     codigo INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+#     nome TEXT,
+#     email TEXT,
+#     "data" TEXT,
+#     perfil TEXT,
+#     usuario TEXT,
+#     senha TEXT
+# );""")
 #c.execute("insert or ignore into Usuario (perfil,usuario,senha)values ('Admin','admin','admin')")
 #con.commit()
 
@@ -27,7 +28,7 @@ c.execute("""CREATE TABLE IF NOT EXISTS Cliente (
 	"data" TEXT,
 	descriçao TEXT
 );""")
-c.execute("""CREATE TABLE IF NOT EXISTS Fornecedor (
+c.execute("""CREATE TABLE IF NOT EXISTS fornecedor (
 	codigo INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 	nome TEXT,
 	tel1 TEXT,
@@ -40,7 +41,7 @@ c.execute("""CREATE TABLE IF NOT EXISTS Fornecedor (
 );""")
 
 
-c.execute("""CREATE TABLE IF NOT EXISTS Agenda (
+c.execute("""CREATE TABLE IF NOT EXISTS agenda (
 	codigo INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 	compromisso TEXT,
 	cliente TEXT,
@@ -53,7 +54,7 @@ c.execute("""CREATE TABLE IF NOT EXISTS Agenda (
 	observcaçoes TEXT
 );""")
 
-c.execute("""CREATE TABLE IF NOT EXISTS Trasferencia (
+c.execute("""CREATE TABLE IF NOT EXISTS caixa (
 	codigo INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 	"data" TEXT,
 	entrada TEXT,
@@ -62,7 +63,7 @@ c.execute("""CREATE TABLE IF NOT EXISTS Trasferencia (
 	descriçao TEXT
 );""")
 
-c.execute("""CREATE TABLE IF NOT EXISTS Produto (
+c.execute("""CREATE TABLE IF NOT EXISTS produto (
 	codigo INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 	nome TEXT,
 	descriçao TEXT,
@@ -72,6 +73,7 @@ c.execute("""CREATE TABLE IF NOT EXISTS Produto (
 	grupo TEXT,
 	"data" TEXT
 );""")
+con.commit()
 
 def select(table):
     c.execute(f"select * from {table}")
@@ -79,14 +81,14 @@ def select(table):
     return result
     
 
-def insert(table,values):
-    #c.execute(f"select group_concat(name,',') from pragma_table_info('{table}')")
-	
-    #c.execute(f"insert into {table} ({columns[0][0][7:]}) values {values[0]}")
-    #con.commit()
+def insert_sql(table,values):
+	c.execute(f"select group_concat(name,',') from pragma_table_info('{table}')")
+	columns = c.fetchall()
+	c.execute(f"insert into {table} ({columns[0][0][7:]}) values {values[0]}")
+	con.commit()
 
 
-def update(table,column,info,codigo):
+def update_sql(table,column,info,codigo):
     c.execute(f"UPDATE {table} set {column} = '{info}' where codigo = {codigo}")
     con.commit()
 
@@ -109,7 +111,7 @@ def search_in(collumn,nome):
         return all
 
 def select_one_produto(codigo):
-    c.execute(f"SELECT nome from produtos where codigo == '{codigo}'")
+    c.execute(f"SELECT nome from produto where codigo == '{codigo}'")
     result = c.fetchall()
     return result
 

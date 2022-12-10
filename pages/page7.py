@@ -1,5 +1,5 @@
-from packages.sql import *
-# from sqlite import *
+# from packages.sql import *
+from packages.sqlite import *
 from packages.functions import *
 from packages.pdf import gen_os
 import pandas as pd

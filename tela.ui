@@ -25,7 +25,7 @@
    <string>SOFTWARE VIDRAÇARIA</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+   <iconset>
     <normaloff>:/Icons/jc_icon.png</normaloff>:/Icons/jc_icon.png</iconset>
   </property>
   <property name="styleSheet">
@@ -127,7 +127,7 @@ color:white;
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="../../Documents/local_archives/icons/images.qrc">
+         <iconset>
           <normaloff>:/Icons/Clientes.png</normaloff>:/Icons/Clientes.png</iconset>
         </property>
         <property name="iconSize">
@@ -147,7 +147,7 @@ color:white;
          </sizepolicy>
         </property>
         <property name="icon">
-         <iconset resource="../../Documents/local_archives/icons/images.qrc">
+         <iconset>
           <normaloff>:/Icons/Fornecedor.png</normaloff>:/Icons/Fornecedor.png</iconset>
         </property>
         <property name="iconSize">
@@ -170,7 +170,7 @@ color:white;
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="../../Documents/local_archives/icons/images.qrc">
+         <iconset>
           <normaloff>:/Icons/agenda.png</normaloff>:/Icons/agenda.png</iconset>
         </property>
         <property name="iconSize">
@@ -193,7 +193,7 @@ color:white;
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="../../Documents/local_archives/icons/images.qrc">
+         <iconset>
           <normaloff>:/Icons/Caixa.png</normaloff>:/Icons/Caixa.png</iconset>
         </property>
         <property name="iconSize">
@@ -216,7 +216,7 @@ color:white;
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="../../Documents/local_archives/icons/images.qrc">
+         <iconset>
           <normaloff>:/Icons/Produtos.png</normaloff>:/Icons/Produtos.png</iconset>
         </property>
         <property name="iconSize">
@@ -236,7 +236,7 @@ color:white;
          </sizepolicy>
         </property>
         <property name="icon">
-         <iconset resource="../../Documents/local_archives/icons/images.qrc">
+         <iconset>
           <normaloff>:/Icons/Menu_os.png.png</normaloff>:/Icons/Menu_os.png.png</iconset>
         </property>
         <property name="iconSize">
@@ -276,7 +276,7 @@ color:white;
         <number>0</number>
        </property>
        <widget class="QWidget" name="central"/>
-       <widget class="QWidget" name="clients">
+       <widget class="QWidget" name="Cliente">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -463,7 +463,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -486,7 +486,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/editar.png</normaloff>:/Icons/editar.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -509,7 +509,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/Limpar.png</normaloff>:/Icons/Limpar.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -526,7 +526,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -556,7 +556,7 @@ color:white;
                <number>30</number>
               </property>
               <item>
-               <widget class="QTableWidget" name="table_clients">
+               <widget class="QTableWidget" name="table_Cliente">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
                   <horstretch>0</horstretch>
@@ -641,7 +641,7 @@ color:white;
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="providers">
+       <widget class="QWidget" name="fornecedor">
         <layout class="QHBoxLayout" name="horizontalLayout_12">
          <property name="leftMargin">
           <number>0</number>
@@ -801,7 +801,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -824,7 +824,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/editar.png</normaloff>:/Icons/editar.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -841,7 +841,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/Limpar.png</normaloff>:/Icons/Limpar.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -858,7 +858,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -888,7 +888,7 @@ color:white;
                <number>50</number>
               </property>
               <item>
-               <widget class="QTableWidget" name="table_provider">
+               <widget class="QTableWidget" name="table_fornecedor">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
                   <horstretch>0</horstretch>
@@ -967,7 +967,7 @@ color:white;
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="tasks">
+       <widget class="QWidget" name="agenda">
         <layout class="QHBoxLayout" name="horizontalLayout_20">
          <property name="leftMargin">
           <number>0</number>
@@ -1136,7 +1136,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -1159,7 +1159,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/editar.png</normaloff>:/Icons/editar.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -1176,7 +1176,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/Limpar.png</normaloff>:/Icons/Limpar.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -1193,7 +1193,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -1223,7 +1223,7 @@ color:white;
                <number>50</number>
               </property>
               <item>
-               <widget class="QTableWidget" name="table_tasks">
+               <widget class="QTableWidget" name="table_agenda">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
                   <horstretch>0</horstretch>
@@ -1315,7 +1315,7 @@ color:white;
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="cashier">
+       <widget class="QWidget" name="caixa">
         <layout class="QHBoxLayout" name="horizontalLayout_23">
          <property name="leftMargin">
           <number>0</number>
@@ -1373,7 +1373,7 @@ color:white;
                <string notr="true">background-color: rgb(54, 54, 54);</string>
               </property>
               <property name="currentIndex">
-               <number>0</number>
+               <number>1</number>
               </property>
               <widget class="QWidget" name="tab">
                <attribute name="title">
@@ -1464,7 +1464,7 @@ color:white;
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                     <iconset>
                       <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
                     </property>
                     <property name="iconSize">
@@ -1487,7 +1487,7 @@ color:white;
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                     <iconset>
                       <normaloff>:/Icons/editar.png</normaloff>:/Icons/editar.png</iconset>
                     </property>
                     <property name="iconSize">
@@ -1510,7 +1510,7 @@ color:white;
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                     <iconset>
                       <normaloff>:/Icons/apagar.png</normaloff>:/Icons/apagar.png</iconset>
                     </property>
                     <property name="iconSize">
@@ -1533,7 +1533,7 @@ color:white;
                      <string/>
                     </property>
                     <property name="icon">
-                     <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                     <iconset>
                       <normaloff>:/Icons/imprimir.png</normaloff>:/Icons/imprimir.png</iconset>
                     </property>
                     <property name="iconSize">
@@ -1547,7 +1547,7 @@ color:white;
                  </layout>
                 </item>
                 <item row="2" column="0" colspan="4">
-                 <widget class="QTableWidget" name="table_cashier">
+                 <widget class="QTableWidget" name="table_caixa">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
                     <horstretch>0</horstretch>
@@ -1682,7 +1682,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -1922,7 +1922,7 @@ color:white;
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="products">
+       <widget class="QWidget" name="produto">
         <layout class="QHBoxLayout" name="horizontalLayout_28">
          <property name="leftMargin">
           <number>0</number>
@@ -2088,7 +2088,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -2111,7 +2111,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/editar.png</normaloff>:/Icons/editar.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -2134,7 +2134,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/Limpar.png</normaloff>:/Icons/Limpar.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -2151,7 +2151,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -2181,7 +2181,7 @@ color:white;
                <number>30</number>
               </property>
               <item>
-               <widget class="QTableWidget" name="table_products">
+               <widget class="QTableWidget" name="table_produto">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
                   <horstretch>0</horstretch>
@@ -2432,7 +2432,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -2455,7 +2455,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/editar.png</normaloff>:/Icons/editar.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -2478,7 +2478,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/Limpar.png</normaloff>:/Icons/Limpar.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -2495,7 +2495,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/imprimir.png</normaloff>:/Icons/imprimir.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -2512,7 +2512,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -2988,7 +2988,7 @@ color:white;
                  <string/>
                 </property>
                 <property name="icon">
-                 <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                 <iconset>
                   <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                 </property>
                 <property name="iconSize">
@@ -3288,7 +3288,7 @@ color:white;
                  <string/>
                 </property>
                 <property name="icon">
-                 <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                 <iconset>
                   <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                 </property>
                 <property name="iconSize">
@@ -3820,7 +3820,7 @@ color:white;
                  <string/>
                 </property>
                 <property name="icon">
-                 <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                 <iconset>
                   <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                 </property>
                 <property name="iconSize">
@@ -3952,7 +3952,7 @@ color:white;
                    <string/>
                   </property>
                   <property name="icon">
-                   <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                   <iconset>
                     <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -4504,7 +4504,7 @@ color:white;
                <string/>
               </property>
               <property name="icon">
-               <iconset resource="../../Documents/local_archives/icons/images.qrc">
+               <iconset>
                 <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
               </property>
               <property name="iconSize">
@@ -4855,7 +4855,7 @@ color:white;
                  <string/>
                 </property>
                 <property name="icon">
-                 <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                 <iconset>
                   <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                 </property>
                 <property name="iconSize">
@@ -5591,7 +5591,7 @@ color:white;
                        <string/>
                       </property>
                       <property name="icon">
-                       <iconset resource="../../Documents/local_archives/icons/images.qrc">
+                       <iconset>
                         <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                       </property>
                       <property name="iconSize">
@@ -5878,8 +5878,6 @@ color:white;
    </item>
   </layout>
  </widget>
- <resources>
-  <include location="../../Documents/local_archives/icons/images.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

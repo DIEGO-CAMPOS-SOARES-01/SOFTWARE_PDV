@@ -1,17 +1,17 @@
-from packages.sql import *
-# from sqlite import *
+# from packages.sql import *
+from packages.sqlite import *
 from packages.functions import *
 
 def task(self):
-        self.task.clicked.connect(lambda: self.pages.setCurrentWidget(self.tasks))
+        self.task.clicked.connect(lambda: self.pages.setCurrentWidget(self.agenda))
         self.new_task.clicked.connect(lambda: self.pages.setCurrentWidget(self.add_task))
-        self.back_task.clicked.connect(lambda: self.pages.setCurrentWidget(self.tasks))
+        self.back_task.clicked.connect(lambda: self.pages.setCurrentWidget(self.agenda))
         self.back_6.clicked.connect(lambda: self.pages.setCurrentWidget(self.central))
-        self.delete_task.clicked.connect(lambda: delete('agenda', self.table_tasks))
+        self.delete_task.clicked.connect(lambda: delete('agenda', self.table_agenda))
         self.cancel_task.clicked.connect(clear)
         self.save_task.clicked.connect(lambda: cadastro_agenda(self))
-        self.edit_task.clicked.connect(lambda: update('agenda', self.table_tasks))
-        self.search_task.textChanged.connect(lambda: search('agenda', self.search_agenda, self.table_tasks))
+        self.edit_task.clicked.connect(lambda: update('agenda', self.table_agenda))
+        self.search_task.textChanged.connect(lambda: search('agenda', self.search_agenda, self.table_agenda))
 
 def cadastro_agenda(self):
     comp = self.com.text()
@@ -23,6 +23,8 @@ def cadastro_agenda(self):
     data = self.data.text()
     hora = self.hora.text()
     lista = [(comp,nm,tel1,tel2,data,hora,end,dt,obs)]
-    for i in lista: str(f'{i}') 
-    insert('agenda',lista)
-    self.pages.setCurrentWidget(self.tasks)
+    insert_sql('agenda',lista)
+    show_messagebox(self,"CADASTRADO", " Compromisso Cadastrado Com Sucesso")
+    clear()
+    update_table('agenda', self.table_agenda)
+    self.pages.setCurrentWidget(self.agenda)

@@ -1,17 +1,17 @@
-from packages.sql import *
-# from sqlite import *
+# from packages.sql import *
+from packages.sqlite import *
 from packages.functions import *
 
 def product(self):
-    self.product.clicked.connect(lambda: self.pages.setCurrentWidget(self.products))
+    self.product.clicked.connect(lambda: self.pages.setCurrentWidget(self.produto))
     self.new_product.clicked.connect(lambda: self.pages.setCurrentWidget(self.add_product))
-    self.back_product.clicked.connect(lambda: self.pages.setCurrentWidget(self.products))
+    self.back_product.clicked.connect(lambda: self.pages.setCurrentWidget(self.produto))
     self.back_10.clicked.connect(lambda: self.pages.setCurrentWidget(self.central))
     self.cancel_product.clicked.connect(clear)
     self.save_product.clicked.connect(lambda: cadastro_produto(self))
-    self.delete_product.clicked.connect(lambda: delete('produto', self.table_products))
-    self.search_product.textChanged.connect(lambda: search('produto', self.search_product, self.table_products))
-    self.edit_product.clicked.connect(lambda: update('produto', self.table_products))
+    self.delete_product.clicked.connect(lambda: delete('produto', self.table_produto))
+    self.search_product.textChanged.connect(lambda: search('produto', self.search_product, self.table_produto))
+    self.edit_product.clicked.connect(lambda: update('produto', self.table_produto))
 
 
 def cadastro_produto(self):
@@ -29,8 +29,8 @@ def cadastro_produto(self):
         valor = self.valor_kg.value()
         categoria = "KG/Barra"
     lista = [(nm,desc,valor,qt,categoria,grupo,dt)]
-    insert('produto',lista)
-    show_messagebox('CADASTRADO', "Produto Cadastrado Com Sucesso")
+    insert_sql('produto',lista)
+    show_messagebox(self,"CADASTRADO", " Produto Cadastrado Com Sucesso")
     clear()
-    update_table('produto', self.table_products)
-    self.pages.setCurrentWidget(self.products)
+    update_table('produto', self.table_produto)
+    self.pages.setCurrentWidget(self.produto)
