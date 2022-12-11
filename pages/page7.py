@@ -54,7 +54,7 @@ def get_total(self):
     r = 0
     for i in checked_list:
         r += float(i)
-        self.total.setText(str(r))
+        self.total.setText(str("{:.2f}".format(r)))
     return r
 
 def print_os(self):

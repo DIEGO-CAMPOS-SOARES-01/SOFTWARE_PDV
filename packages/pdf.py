@@ -7,79 +7,128 @@ config = pdfkit.configuration(wkhtmltopdf = r"C:\Program Files\wkhtmltopdf\bin\w
 def gen_os(df,total):
     table = df.to_html()
     pdf = ("""
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <style>  
-        .header{
-            text-align:left;
-            font: 9px Calibri;
-            line-height:0.6;
-            margin-left: 5em; 
-            margin-top:15em;
-        }
-        .info{
-            text-align:left;
-            font: 9px Calibri;
-            line-height:1px;
-            margin-left: 5em;
-        }
-        .table{
-            margin-top:10px;
-            text-align:center;
-            font: 12px Calibri; 
-        }
-        table,tr{
-            border-collapse:collapse;
-            margin-left:auto;
-            margin-right:auto;
-            text-align:center;
-            font: 16px Calibri;    
-        }
-        th{ 
-            font: 16px Calibri;
-            background:#000;
-            color:white;
-            text-align:center;
-            padding:6px 
-            }
+      <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+  </head>
+  <style>
+      body{
+          font: 10pt Times New Roman;
+          line-height:4pt;
+          text-align:center;
+          margin:10px 10px 0 
+      }
+      .table table,tr{
+          border-collapse:collapse;
+          margin: 20px 0 20px 0; 
+          line-height:18pt;
+          width:100%;
+      }
+      .table th{
+          background:#000;
+          color:white;
+          text-align:center;
+          padding:6px 
+      }
+      .table tr:nth-child(even){
+          background-color:#eeeeee;
+      }
+  </style>    
+  <body>
+      <div style="border: 1px solid black;font-size: 8pt;">
+          <h1 style="font-size: 18pt;">JC VIDROS</h1>
+          <h2>Rua Visconde De Itauna 1638</h2>
+          <h2>Gradim - São Gonçalo - RJ - Cep: 24431182</h2>
+          <h2>Tel: (21) 96968-4788</h2>
+          <h2>E-mail : carlosaugusto280475@gmail.com</h2>
 
-        tr:nth-child(even){background-color:#eeeeee;}
-    </style>    
-    <body>
-        <div class = "header">
-            <h1>Nome Da Loja</h1>
-            <h1>Endereço</h1>
-            <h1>Tel: (21)99999-9999</h1>
-            <h1>Email :email@gmail.com</h1>
-            <hr>
-        </div>
-        <div class = "info">
-            <h1>Cliente: </h1><hr>
-            <h1>Endereço</h1><hr>
-            <h1>Cidade</h1><hr>
-            <h1>Tel: </h1><hr>
-            
-        </div>
-        <div class = "table">
-            <h1>Descriçao Do Pedido</h1>
-            %s
-            <h1>Total : %s </h1>
-        </div>
-
-    </body>
-    </html>""" %(table,total))
+      </div>
+      
+      <table style="border:1px solid black;border-collapse:collapse;width:100%;">
+          <tbody>
+              <tr style="height:19pt;">
+                  <td style="width:200pt;">Orçamento n:</td>
+                  <td style="width:200pt">Emitido Em: </td>
+                  <td style="width:200pt">Valido Ate: </td>
+              </tr>
+          </tbody>
+          </table>
+      
+      <div>
+      <table style="border:1px solid black;border-collapse:collapse;width:100%;margin-top:8px;">
+          <tbody style="text-align: left;height: 60pt;">
+              <tr style="text-align: center;">
+                  <td >CLIENTE</td>
+              </tr>
+              <tr  style = "border: 1px solid black">
+                  <td style="width: 10pt;">Cliente: </td>
+                  <td> Diego</td>
+              </tr>
+              <tr style="border: 1px solid black;height:19pt;">
+                  <td style="width: 10pt;">Tel(1): 219999 </td>
+                  <td style="width: 10pt;"> Tel(2): 2199999</td>
+              </tr>
+              <tr>
+                  <td>CPF/CNPJ:</td>
+                  <td>Email:</td>
+              </tr>
+              <tr style="border: 1px solid black;height:19pt;">
+                  <td style="width: 10pt;">Endereço:</td>
+              </tr>
+              <tr>
+                  <td>Bairro:</td>
+                  <td>Cidade:</td>
+              </tr>
+          </tbody>
+      </table>
+      </div>
+      <div class="table">
+        <table>
+          <tbody>
+              <tr style="border: 1px solid black;height:19pt;">
+                  <td>ORÇAMENTO</td>
+              </tr>
+          </tbody>
+      </table>
+      """ + str(table) +  """
+      </div>
+      
+      <div style="margin-top:8px;">
+          <table style="border:1px solid black;border-collapse:collapse;width:100%;margin-top: 20pt;">
+              <tbody>
+                  <tr style="border: 1px solid black;height:19pt;">
+                      <td>Subtotal: R$</td>
+                      <td>Desconto: R$</td>
+                      <td>Acrescimo: R$</td>
+                      <td>Total: R$</td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+      
+      <div style="margin-top:8px;">
+          <table style="border:1px solid black;border-collapse:collapse;width:100%;">
+              <tbody>
+                  <tr style="border: 1px solid black;height:19pt;" >
+                      <td >OBSERVAÇÕES</td>
+                  </tr>
+                  <tr style="border: 1px solid black;height:83pt;">
+                      <td style="text-align: left;">Os serviços de Entrega e Instalação estão inclusos neste Orçamento. Todos os Preços informados estão expressos em Reais (R$) e são exclusivos a este orçamento. </td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+  </body>
+  </html>""")
 
     pdfkit.from_string(pdf, output_path= "PDF.pdf",configuration= config)
     url = 'PDF.pdf'
 
-    webbrowser.open(url,new=1)
-
+    webbrowser.open(url,new=False)
 
 
 

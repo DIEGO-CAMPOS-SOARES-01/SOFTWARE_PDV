@@ -1,8 +1,7 @@
 import mysql.connector
 from mysql.connector import Error
-import win32serviceutil
 
-win32serviceutil.ServiceFramework.init()
+
 
 con = mysql.connector.connect(host='localhost',user='root',password='')
 c= con.cursor(buffered=True)
