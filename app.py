@@ -9,21 +9,14 @@ app = QApplication([])
 
 
 class Main(QWidget):
-    def __init__(self,user):
+    def __init__(self):
         super(Main, self).__init__()
-        #self.setupUi(self)
         uic.loadUi('tela.ui', self)
         customs(self,app)
-        # if user == "Admin":
-        #     self.user.setVisible(True)
-        # elif user == "User":
-        #     self.user.setVisible(False)
-
         fill_tables(self)
 
         page1.client(self)
         page2.provider(self)
-        #page3.user(self)
         page4.task(self)
         page6.product(self)
         page5.cashier(self)
@@ -31,6 +24,6 @@ class Main(QWidget):
 
 if __name__ == "__main__":
     import sys
-    w = Main("Admin")
+    w = Main()
     w.showMaximized()
     sys.exit(app.exec_())

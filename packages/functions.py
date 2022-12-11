@@ -4,30 +4,35 @@ from datetime import *
 #from packages.sql import *
 from packages.sqlite import *
 import ctypes
+import os
+import subprocess
 from qt_material import *
+
 
 
 tempo = datetime.now()
 dt = tempo.strftime("%x")
-user32 = ctypes.windll.user32
-size = user32.GetSystemMetrics(0), user32.GetSystemMetrics(1)
 
+if os.name == 'nt':
+    user32 = ctypes.windll.user32
+    size = user32.GetSystemMetrics(0)
+else:
+        output = subprocess.Popen('xrandr | grep "\*" | cut -d" " -f4',shell=True, stdout=subprocess.PIPE).communicate()[0]
+        size = int(output.split()[0].split(b'x')[0])
 
 def customs(self,app):
     extra = {'font_size': '7px'}
     extra_2 =  {'font_size': '14px'}
-
-    if size[0] > 1920:
+    if size > 1920:
         self.frame.setMinimumSize(130,110)
         apply_stylesheet(app,theme = "dark_cyan.xml",extra=extra_2)
-    elif size[0] > 1360:
+    elif size > 1360:
         self.frame.setMinimumSize(110,90)
         apply_stylesheet(app,theme = "dark_cyan.xml",extra=extra_2)
-    elif size[0] == 1360:
+    elif size == 1360:
         self.frame.setMinimumSize(90,70)
         apply_stylesheet(app,theme = "dark_cyan.xml",extra=extra)
 
-    
 
 def update_table(collumn, uitable):
     query = select(collumn)
@@ -40,7 +45,7 @@ def update_table(collumn, uitable):
             item = uitable.item(row, column)
             if item:
                 item.setTextAlignment(Qt.AlignCenter)
-                if size[0] > 1920:
+                if size > 1920:
                     uitable.setStyleSheet("font-size:16px;")
                 else:
                      uitable.setStyleSheet("font-size:12px;")

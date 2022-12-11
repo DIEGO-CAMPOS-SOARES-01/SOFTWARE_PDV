@@ -1,7 +1,10 @@
 import os
 import sqlite3
+
 home_directory = os.path.expanduser( '~' )
-path = os.path.join( home_directory, 'AppData', 'Local' ,'banco.db')
+path = os.path.join( home_directory,'Xsession.db')
+
+ 
 
 con = sqlite3.connect(path)
 c = con.cursor()

@@ -1,11 +1,14 @@
 import pdfkit
 import pandas as pd
 import webbrowser
+import os
 
-
-config = pdfkit.configuration(wkhtmltopdf = r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe")
-def gen_os(df,total):
-    table = df.to_html()
+if os.name == 'nt':
+    config = pdfkit.configuration(wkhtmltopdf = r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe")
+else:
+    config = pdfkit.configuration(wkhtmltopdf = r"/usr/local/bin/wkhtmltopdf")
+def gen_os():
+    #table = df.to_html()
     pdf = ("""
       <!DOCTYPE html>
   <html lang="en">
@@ -61,25 +64,25 @@ def gen_os(df,total):
       <div>
       <table style="border:1px solid black;border-collapse:collapse;width:100%;margin-top:8px;">
           <tbody style="text-align: left;height: 60pt;">
-              <tr style="text-align: center;">
+              <tr style="text-align: center;border: 1px solid black">
                   <td >CLIENTE</td>
               </tr>
               <tr  style = "border: 1px solid black">
                   <td style="width: 10pt;">Cliente: </td>
                   <td> Diego</td>
               </tr>
-              <tr style="border: 1px solid black;height:19pt;">
+              <tr>
                   <td style="width: 10pt;">Tel(1): 219999 </td>
                   <td style="width: 10pt;"> Tel(2): 2199999</td>
               </tr>
-              <tr>
-                  <td>CPF/CNPJ:</td>
-                  <td>Email:</td>
+              <tr style="border: 1px solid black;height:19pt;">
+                  <td  >CPF/CNPJ:</td>
+                  <td " >Email:</td>
               </tr>
               <tr style="border: 1px solid black;height:19pt;">
-                  <td style="width: 10pt;">Endereço:</td>
+                  <td >Endereço:</td>
               </tr>
-              <tr>
+              <tr style="border: 1px solid black;height:19pt;">
                   <td>Bairro:</td>
                   <td>Cidade:</td>
               </tr>
@@ -94,7 +97,6 @@ def gen_os(df,total):
               </tr>
           </tbody>
       </table>
-      """ + str(table) +  """
       </div>
       
       <div style="margin-top:8px;">
@@ -130,5 +132,6 @@ def gen_os(df,total):
 
     webbrowser.open(url,new=False)
 
+gen_os()
 
 
