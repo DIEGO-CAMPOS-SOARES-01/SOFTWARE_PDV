@@ -15,9 +15,29 @@ def os(self):
     self.insert_product.clicked.connect(lambda: add_produto(self))
     self.finish_os.clicked.connect(lambda: print_os(self))
     self.cancel_os.clicked.connect(lambda: self.table_add_os.setRowCount(0))
-    self.remove_product.clicked.connect(lambda: self.table_add_os.removeRow(self.table_add_os.currentRow()))   
+    self.remove_product.clicked.connect(lambda: self.table_add_os.removeRow(self.table_add_os.currentRow()))
+    self.cancel_client_os.clicked.connect(clear)
+    self.back_os_2.clicked.connect(lambda: self.pages.setCurrentWidget(self.os))
+    self.next.clicked.connect(lambda: self.tab_os.setCurrentIndex(1))  
+    self.save_client_os.clicked.connect(lambda: save_client(self))
 
-
+def save_client(self):
+    nm = self.nm_os.text()
+    end = self.end_os.text()
+    tel1 = self.tel1_os.text()
+    tel2 = self.tel2_os.text()
+    email = self.email_os.text()
+    cpf = self.cpf_os.text()
+    brr = self.brr_os.text()
+    cdd = self.cdd_os.text()
+    
+    lista = [(nm,tel1,tel2,end,brr,cdd,email,cpf,dt,'')]
+    insert_sql('Cliente',lista)
+    show_messagebox(self,"CADASTRADO", " Cliente Cadastrado Com Sucesso")
+    clear()
+    update_table('Cliente', self.table_Cliente)
+    self.tab_os.setCurrentIndex(1)
+    
 def add_produto(self):
     cod = self.search_product_2.text()
     query = search_in('produto', cod)

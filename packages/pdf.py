@@ -7,8 +7,8 @@ if os.name == 'nt':
     config = pdfkit.configuration(wkhtmltopdf = r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe")
 else:
     config = pdfkit.configuration(wkhtmltopdf = r"/usr/local/bin/wkhtmltopdf")
-def gen_os():
-    #table = df.to_html()
+def gen_os(df,total):
+    table = df.to_html()
     pdf = ("""
       <!DOCTYPE html>
   <html lang="en">
@@ -62,25 +62,30 @@ def gen_os():
           </table>
       
       <div>
-      <table style="border:1px solid black;border-collapse:collapse;width:100%;margin-top:8px;">
+        <table style="text-align: center;height:15pt;border: 1px solid black; width:100%;margin-top:10px;">
+            <tbody>
+                <tr >
+                    <td>CLIENTE</td>
+                </tr>
+            </tbody>
+        </table>
+      <table style="border:1px solid black;border-collapse:collapse;width:100%;">
           <tbody style="text-align: left;height: 60pt;">
-              <tr style="text-align: center;border: 1px solid black">
-                  <td >CLIENTE</td>
-              </tr>
               <tr  style = "border: 1px solid black">
                   <td style="width: 10pt;">Cliente: </td>
-                  <td> Diego</td>
+                  <td></td>
               </tr>
               <tr>
                   <td style="width: 10pt;">Tel(1): 219999 </td>
                   <td style="width: 10pt;"> Tel(2): 2199999</td>
               </tr>
               <tr style="border: 1px solid black;height:19pt;">
-                  <td  >CPF/CNPJ:</td>
-                  <td " >Email:</td>
+                  <td>CPF/CNPJ:</td>
+                  <td>Email:</td>
               </tr>
-              <tr style="border: 1px solid black;height:19pt;">
-                  <td >Endereço:</td>
+              <tr >
+                  <td >Endereço: Rua Rosalina Barbosa </td>
+                  <td></td>
               </tr>
               <tr style="border: 1px solid black;height:19pt;">
                   <td>Bairro:</td>
@@ -96,11 +101,11 @@ def gen_os():
                   <td>ORÇAMENTO</td>
               </tr>
           </tbody>
-      </table>
-      </div>
+      </table>   """ + str(table) + """
       
+      </div>
       <div style="margin-top:8px;">
-          <table style="border:1px solid black;border-collapse:collapse;width:100%;margin-top: 20pt;">
+          <table style="border:1px solid black;border-collapse:collapse;width:100%;margin-top: 100pt;">
               <tbody>
                   <tr style="border: 1px solid black;height:19pt;">
                       <td>Subtotal: R$</td>
@@ -132,6 +137,5 @@ def gen_os():
 
     webbrowser.open(url,new=False)
 
-gen_os()
 
 

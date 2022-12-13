@@ -78,16 +78,19 @@ def fill_tables(self):
     #update_table('os', self.table_os)
 
 
-def update(column, table):
+def update(self, column, table):
     info, ok = QInputDialog.getText(None, "Atualizar", "INSIRA NOVO DADO")
     if ok:
-        codigo = table.item(table.currentRow(), 0).text()
-        label = table.horizontalHeaderItem(table.currentColumn()).text().lower()
-        update_sql(column, label, info, codigo)
-        update_table(column, table)
-        #show_messagebox('ATUALIZADO', "Informaçao Atualizada Com Sucesso")
-
-        #show_messagebox('ERROR', "Selecione Informaçao A ser Editada")
+        try:
+            codigo = table.item(table.currentRow(), 0).text()
+            label = table.horizontalHeaderItem(table.currentColumn()).text().lower()
+            update_sql(column, label, info, codigo)
+            update_table(column, table)
+            show_messagebox(self,'ATUALIZADO', "Informaçao Atualizada Com Sucesso")
+        
+        except:
+            show_messagebox(self,'ERROR', "Selecione Informaçao A ser Editada")
+        
     else:
         return None
 

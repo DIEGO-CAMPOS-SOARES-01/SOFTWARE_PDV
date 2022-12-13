@@ -9,9 +9,9 @@ def product(self):
     self.back_10.clicked.connect(lambda: self.pages.setCurrentWidget(self.central))
     self.cancel_product.clicked.connect(clear)
     self.save_product.clicked.connect(lambda: cadastro_produto(self))
-    self.delete_product.clicked.connect(lambda: delete('produto', self.table_produto))
+    self.delete_product.clicked.connect(lambda: delete(self,'produto', self.table_produto))
     self.search_product.textChanged.connect(lambda: search('produto', self.search_product, self.table_produto))
-    self.edit_product.clicked.connect(lambda: update('produto', self.table_produto))
+    self.edit_product.clicked.connect(lambda: update(self, 'produto', self.table_produto))
 
 
 def cadastro_produto(self):

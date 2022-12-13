@@ -6,7 +6,7 @@ def provider(self):
     self.provider.clicked.connect(lambda: self.pages.setCurrentWidget(self.fornecedor))
     self.new_provider.clicked.connect((lambda: self.pages.setCurrentWidget(self.add_provider)))
     self.back_3.clicked.connect(lambda: self.pages.setCurrentWidget(self.central))
-    self.edit_provider.clicked.connect(lambda: update('fornecedor', self.table_fornecedor))
+    self.edit_provider.clicked.connect(lambda: update(self,'fornecedor', self.table_fornecedor))
     self.save_provider.clicked.connect(lambda: cadastro_fornecedor(self))
     self.delete_provider.clicked.connect(lambda: delete(self,'fornecedor', self.table_fornecedor))
     self.search_provider.textChanged.connect(lambda: search('fornecedor', self.search_provider, self.table_fornecedor))

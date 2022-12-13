@@ -9,28 +9,21 @@ path = os.path.join( home_directory,'Xsession.db')
 con = sqlite3.connect(path)
 c = con.cursor()
 
-# c.execute("""CREATE TABLE IF NOT EXISTS Usuario (
-#     codigo INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-#     nome TEXT,
-#     email TEXT,
-#     "data" TEXT,
-#     perfil TEXT,
-#     usuario TEXT,
-#     senha TEXT
-# );""")
-#c.execute("insert or ignore into Usuario (perfil,usuario,senha)values ('Admin','admin','admin')")
-#con.commit()
 
 c.execute("""CREATE TABLE IF NOT EXISTS Cliente (
-	codigo INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	Codigo INTEGER PRIMARY KEY AUTOINCREMENT,
 	nome TEXT,
-	tel1 TEXT,
-	tel2 TEXT,
+	tel1 TEXT(18),
+	tel2 TEXT(18),
 	endereço TEXT,
-	complemento TEXT,
-	"data" TEXT,
+	bairro TEXT,
+	cidade TEXT,
+	email TEXT,
+	cpf TEXT(15),
+	"data" TEXT(10),
 	descriçao TEXT
-);""")
+);
+""")
 c.execute("""CREATE TABLE IF NOT EXISTS fornecedor (
 	codigo INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 	nome TEXT,
@@ -92,8 +85,11 @@ def insert_sql(table,values):
 
 
 def update_sql(table,column,info,codigo):
-    c.execute(f"UPDATE {table} set {column} = '{info}' where codigo = {codigo}")
-    con.commit()
+	try:
+		c.execute(f"UPDATE {table} set {column} = '{info}' where codigo = {codigo}")
+		con.commit()
+	except:
+		pass
 
 def excluir(table, codigo):
     c.execute(f"DELETE from '{table}' WHERE codigo = '{codigo}'")
