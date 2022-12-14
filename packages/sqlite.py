@@ -69,7 +69,30 @@ c.execute("""CREATE TABLE IF NOT EXISTS produto (
 	grupo TEXT,
 	"data" TEXT
 );""")
+c.execute("""CREATE TABLE IF NOT EXISTS info (
+	codigo INTEGER PRIMARY KEY AUTOINCREMENT,
+	nome TEXT,
+	cnpj TEXT,
+	endereço TEXT,
+	bairro TEXT,
+	municipio TEXT,
+	UF TEXT,
+	cep TEXT,
+	tel1 TEXT,
+	tel2 TEXT,
+	email TEXT
+);""")
 con.commit()
+
+def info():
+	result = select('info')
+	if result:
+		pass
+	else:
+		c.execute("""INSERT  INTO info 
+		VALUES 
+		(0,'NOME DA LOJA', 'X.XXX.XXX/0001-XX', 'ENDEREÇO DA LOJA', 'Bairro','Cidade','UF','CEP','(21)99999-9999','email@gamil.com')""")
+		con.commit()
 
 def select(table):
     c.execute(f"select * from {table}")
@@ -110,7 +133,8 @@ def search_in(collumn,nome):
         return all
 
 def select_one_produto(codigo):
-    c.execute(f"SELECT nome from produto where codigo == '{codigo}'")
+    c.execute(f"SELECT nome,categoria from produto where codigo == '{codigo}'")
     result = c.fetchall()
     return result
 
+info()

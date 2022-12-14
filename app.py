@@ -4,11 +4,13 @@ from pages import page1, page2,page4, page5, page6,page7
 from packages.functions import *
 from packages import icons
 # from ui_tela import Ui_widget
+from qtstyles import StylePicker
+
 
 app = QApplication([])
 
 
-class Main(QWidget):
+class Main(QMainWindow):
     def __init__(self):
         super(Main, self).__init__()
         uic.loadUi('tela.ui', self)

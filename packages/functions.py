@@ -1,6 +1,7 @@
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import Qt
 from datetime import *
+from PyQt5.QtCore import QDateTime
 #from packages.sql import *
 from packages.sqlite import *
 import ctypes
@@ -78,7 +79,7 @@ def fill_tables(self):
     #update_table('os', self.table_os)
 
 
-def update(self, column, table):
+def update(self,  column, table):
     info, ok = QInputDialog.getText(None, "Atualizar", "INSIRA NOVO DADO")
     if ok:
         try:
