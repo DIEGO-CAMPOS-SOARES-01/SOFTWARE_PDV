@@ -9,8 +9,6 @@ import os
 import subprocess
 from qt_material import *
 
-
-
 tempo = datetime.now()
 dt = tempo.strftime("%x")
 
@@ -33,7 +31,6 @@ def customs(self,app):
     elif size == 1360:
         self.frame.setMinimumSize(90,70)
         apply_stylesheet(app,theme = "dark_cyan.xml",extra=extra)
-
 
 def update_table(collumn, uitable):
     query = select(collumn)
@@ -61,23 +58,14 @@ def show_messagebox(self,title, text):
     msg.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
     msg.setFixedSize(800,800)
     msg.exec_()
-    
-
-
-def clear():
-    for widget in qApp.allWidgets():  # widgets retorna todos os objetos de todos os widgets
-        if isinstance(widget, QLineEdit):
-            widget.clear()
 
 def fill_tables(self):
     update_table('agenda', self.table_agenda)
     update_table('Cliente', self.table_Cliente)
     update_table('fornecedor', self.table_fornecedor)
     update_table('produto', self.table_produto)
-    #update_table('usuario', self.table_users)
     update_table('caixa', self.table_caixa)
     #update_table('os', self.table_os)
-
 
 def update(self,  column, table):
     info, ok = QInputDialog.getText(None, "Atualizar", "INSIRA NOVO DADO")
@@ -116,5 +104,27 @@ def search(collumn, line, uitable):
                 item = QTableWidgetItem(f"{rows[i][j]}")
                 uitable.setItem(i, j, item)
 
-def atalho(p, f):
-    QShortcut("Return" , p).activated.connect(f)    
+def get_text(self):
+    result = []
+    current = self.pages.currentWidget()
+    for i in current.findChildren(QLineEdit):
+        result.append(i.text())
+    result.append(dt)
+    for i in current.findChildren(QTextEdit):
+        if i:
+            result.append(i.toPlainText())
+    
+    return tuple(result)
+
+def clear(self):
+    current = self.pages.currentWidget()
+    for i in current.findChildren(QLineEdit):
+        i.clear()
+
+def cadastro(self,collumn,msg,table,page):
+    values = get_text(self)
+    insert_sql(collumn,values)
+    show_messagebox(self,"CADASTRADO", f"{msg} Com Sucesso")
+    clear(self)
+    update_table(collumn, table)
+    self.pages.setCurrentWidget(page)

@@ -14,7 +14,7 @@
    <string>SOFTWARE VIDRAÇARIA</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="../icons/images.qrc">
+   <iconset>
     <normaloff>:/Icons/jc_icon.png</normaloff>:/Icons/jc_icon.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
@@ -123,7 +123,7 @@ color:white;
           <string/>
          </property>
          <property name="icon">
-          <iconset resource="../icons/images.qrc">
+          <iconset>
            <normaloff>:/Icons/Clientes.png</normaloff>:/Icons/Clientes.png</iconset>
          </property>
          <property name="iconSize">
@@ -143,7 +143,7 @@ color:white;
           </sizepolicy>
          </property>
          <property name="icon">
-          <iconset resource="../icons/images.qrc">
+          <iconset>
            <normaloff>:/Icons/Fornecedor.png</normaloff>:/Icons/Fornecedor.png</iconset>
          </property>
          <property name="iconSize">
@@ -166,7 +166,7 @@ color:white;
           <string/>
          </property>
          <property name="icon">
-          <iconset resource="../icons/images.qrc">
+          <iconset>
            <normaloff>:/Icons/agenda.png</normaloff>:/Icons/agenda.png</iconset>
          </property>
          <property name="iconSize">
@@ -189,7 +189,7 @@ color:white;
           <string/>
          </property>
          <property name="icon">
-          <iconset resource="../icons/images.qrc">
+          <iconset>
            <normaloff>:/Icons/Caixa.png</normaloff>:/Icons/Caixa.png</iconset>
          </property>
          <property name="iconSize">
@@ -212,7 +212,7 @@ color:white;
           <string/>
          </property>
          <property name="icon">
-          <iconset resource="../icons/images.qrc">
+          <iconset>
            <normaloff>:/Icons/Produtos.png</normaloff>:/Icons/Produtos.png</iconset>
          </property>
          <property name="iconSize">
@@ -232,7 +232,7 @@ color:white;
           </sizepolicy>
          </property>
          <property name="icon">
-          <iconset resource="../icons/images.qrc">
+          <iconset>
            <normaloff>:/Icons/Menu_os.png.png</normaloff>:/Icons/Menu_os.png.png</iconset>
          </property>
          <property name="iconSize">
@@ -269,7 +269,7 @@ color:white;
          </sizepolicy>
         </property>
         <property name="currentIndex">
-         <number>0</number>
+         <number>9</number>
         </property>
         <widget class="QWidget" name="central"/>
         <widget class="QWidget" name="Cliente">
@@ -459,7 +459,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -482,7 +482,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/editar.png</normaloff>:/Icons/editar.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -505,7 +505,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/Limpar.png</normaloff>:/Icons/Limpar.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -522,7 +522,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -812,7 +812,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -835,7 +835,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/editar.png</normaloff>:/Icons/editar.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -852,7 +852,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/Limpar.png</normaloff>:/Icons/Limpar.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -869,7 +869,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -1147,7 +1147,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -1170,7 +1170,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/editar.png</normaloff>:/Icons/editar.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -1187,7 +1187,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/Limpar.png</normaloff>:/Icons/Limpar.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -1204,7 +1204,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -1489,7 +1489,7 @@ color:white;
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset resource="../icons/images.qrc">
+                      <iconset>
                        <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
                      </property>
                      <property name="iconSize">
@@ -1512,7 +1512,7 @@ color:white;
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset resource="../icons/images.qrc">
+                      <iconset>
                        <normaloff>:/Icons/editar.png</normaloff>:/Icons/editar.png</iconset>
                      </property>
                      <property name="iconSize">
@@ -1535,7 +1535,7 @@ color:white;
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset resource="../icons/images.qrc">
+                      <iconset>
                        <normaloff>:/Icons/apagar.png</normaloff>:/Icons/apagar.png</iconset>
                      </property>
                      <property name="iconSize">
@@ -1558,7 +1558,7 @@ color:white;
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset resource="../icons/images.qrc">
+                      <iconset>
                        <normaloff>:/Icons/imprimir.png</normaloff>:/Icons/imprimir.png</iconset>
                      </property>
                      <property name="iconSize">
@@ -1712,7 +1712,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -1898,7 +1898,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -1921,7 +1921,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/editar.png</normaloff>:/Icons/editar.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -1944,7 +1944,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/Limpar.png</normaloff>:/Icons/Limpar.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -1961,7 +1961,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -2242,7 +2242,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -2265,7 +2265,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/editar.png</normaloff>:/Icons/editar.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -2288,7 +2288,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/Limpar.png</normaloff>:/Icons/Limpar.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -2305,7 +2305,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/imprimir.png</normaloff>:/Icons/imprimir.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -2322,7 +2322,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -2489,49 +2489,6 @@ color:white;
                </layout>
               </item>
               <item>
-               <layout class="QVBoxLayout" name="verticalLayout_18">
-                <item>
-                 <widget class="QLabel" name="label_55">
-                  <property name="sizePolicy">
-                   <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-                    <horstretch>0</horstretch>
-                    <verstretch>0</verstretch>
-                   </sizepolicy>
-                  </property>
-                  <property name="font">
-                   <font>
-                    <pointsize>10</pointsize>
-                   </font>
-                  </property>
-                  <property name="text">
-                   <string>Endereço</string>
-                  </property>
-                 </widget>
-                </item>
-                <item>
-                 <widget class="QLineEdit" name="end">
-                  <property name="sizePolicy">
-                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                    <horstretch>0</horstretch>
-                    <verstretch>0</verstretch>
-                   </sizepolicy>
-                  </property>
-                  <property name="minimumSize">
-                   <size>
-                    <width>400</width>
-                    <height>30</height>
-                   </size>
-                  </property>
-                  <property name="font">
-                   <font>
-                    <pointsize>10</pointsize>
-                   </font>
-                  </property>
-                 </widget>
-                </item>
-               </layout>
-              </item>
-              <item>
                <layout class="QVBoxLayout" name="verticalLayout_19">
                 <item>
                  <layout class="QHBoxLayout" name="horizontalLayout_34">
@@ -2616,80 +2573,45 @@ color:white;
                </layout>
               </item>
               <item>
-               <layout class="QVBoxLayout" name="verticalLayout_20">
+               <layout class="QVBoxLayout" name="verticalLayout_18">
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_52">
-                  <item>
-                   <widget class="QLabel" name="label_62">
-                    <property name="font">
-                     <font>
-                      <pointsize>10</pointsize>
-                     </font>
-                    </property>
-                    <property name="text">
-                     <string>CPF/CNPJ</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QLabel" name="label_58">
-                    <property name="font">
-                     <font>
-                      <pointsize>10</pointsize>
-                     </font>
-                    </property>
-                    <property name="text">
-                     <string>Email</string>
-                    </property>
-                   </widget>
-                  </item>
-                 </layout>
+                 <widget class="QLabel" name="label_55">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Endereço</string>
+                  </property>
+                 </widget>
                 </item>
                 <item>
-                 <layout class="QHBoxLayout" name="horizontalLayout_53">
-                  <item>
-                   <widget class="QLineEdit" name="cpf">
-                    <property name="sizePolicy">
-                     <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-                      <horstretch>0</horstretch>
-                      <verstretch>0</verstretch>
-                     </sizepolicy>
-                    </property>
-                    <property name="minimumSize">
-                     <size>
-                      <width>300</width>
-                      <height>30</height>
-                     </size>
-                    </property>
-                    <property name="font">
-                     <font>
-                      <pointsize>10</pointsize>
-                     </font>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QLineEdit" name="email">
-                    <property name="sizePolicy">
-                     <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-                      <horstretch>0</horstretch>
-                      <verstretch>0</verstretch>
-                     </sizepolicy>
-                    </property>
-                    <property name="minimumSize">
-                     <size>
-                      <width>300</width>
-                      <height>30</height>
-                     </size>
-                    </property>
-                    <property name="font">
-                     <font>
-                      <pointsize>10</pointsize>
-                     </font>
-                    </property>
-                   </widget>
-                  </item>
-                 </layout>
+                 <widget class="QLineEdit" name="end">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>400</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                 </widget>
                 </item>
                </layout>
               </item>
@@ -2784,6 +2706,84 @@ color:white;
                </layout>
               </item>
               <item>
+               <layout class="QVBoxLayout" name="verticalLayout_20">
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_52">
+                  <item>
+                   <widget class="QLabel" name="label_58">
+                    <property name="font">
+                     <font>
+                      <pointsize>10</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>Email</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_62">
+                    <property name="font">
+                     <font>
+                      <pointsize>10</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>CPF/CNPJ</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_53">
+                  <item>
+                   <widget class="QLineEdit" name="email">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>300</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>10</pointsize>
+                     </font>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="cpf">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>300</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>10</pointsize>
+                     </font>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+              <item>
                <widget class="QLabel" name="label_10">
                 <property name="font">
                  <font>
@@ -2845,7 +2845,7 @@ color:white;
                  <string/>
                 </property>
                 <property name="icon">
-                 <iconset resource="../icons/images.qrc">
+                 <iconset>
                   <normaloff>:/Icons/apagar.png</normaloff>:/Icons/apagar.png</iconset>
                 </property>
                 <property name="iconSize">
@@ -2879,7 +2879,7 @@ color:white;
                  <string/>
                 </property>
                 <property name="icon">
-                 <iconset resource="../icons/images.qrc">
+                 <iconset>
                   <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
                 </property>
                 <property name="iconSize">
@@ -2913,7 +2913,7 @@ color:white;
                  <string/>
                 </property>
                 <property name="icon">
-                 <iconset resource="../icons/images.qrc">
+                 <iconset>
                   <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                 </property>
                 <property name="iconSize">
@@ -2968,7 +2968,439 @@ color:white;
              <property name="bottomMargin">
               <number>0</number>
              </property>
+             <item row="6" column="0">
+              <layout class="QVBoxLayout" name="verticalLayout_59">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_79">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_68">
+                   <item>
+                    <widget class="QLabel" name="label_80">
+                     <property name="font">
+                      <font>
+                       <pointsize>10</pointsize>
+                      </font>
+                     </property>
+                     <property name="text">
+                      <string>Email</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="label_81">
+                     <property name="font">
+                      <font>
+                       <pointsize>10</pointsize>
+                      </font>
+                     </property>
+                     <property name="text">
+                      <string>CPF/CNPJ</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_69">
+                   <item alignment="Qt::AlignLeft">
+                    <widget class="QLineEdit" name="email_2">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>300</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>10</pointsize>
+                      </font>
+                     </property>
+                    </widget>
+                   </item>
+                   <item alignment="Qt::AlignLeft">
+                    <widget class="QLineEdit" name="cpf_2">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>300</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>10</pointsize>
+                      </font>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_26">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Observações&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::AutoText</enum>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>false</bool>
+                 </property>
+                 <property name="indent">
+                  <number>-1</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QTextEdit" name="obs_provider">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>100</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>100</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>12</pointsize>
+                  </font>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_4">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_56">
+                 <item>
+                  <widget class="QPushButton" name="cancel_provider">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>150</width>
+                     <height>70</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset>
+                     <normaloff>:/Icons/apagar.png</normaloff>:/Icons/apagar.png</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>32</width>
+                     <height>32</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="save_provider">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>150</width>
+                     <height>70</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset>
+                     <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>32</width>
+                     <height>32</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="back_provider">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>150</width>
+                     <height>70</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset>
+                     <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>32</width>
+                     <height>32</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+             <item row="3" column="0">
+              <layout class="QVBoxLayout" name="verticalLayout_78">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_66">
+                 <item>
+                  <widget class="QLabel" name="label_77">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Cidade</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_79">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Bairro</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_67">
+                 <item alignment="Qt::AlignLeft">
+                  <widget class="QLineEdit" name="cdd_2">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>300</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                    </font>
+                   </property>
+                  </widget>
+                 </item>
+                 <item alignment="Qt::AlignLeft">
+                  <widget class="QLineEdit" name="brr_2">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>300</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                    </font>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
              <item row="1" column="0">
+              <layout class="QHBoxLayout" name="horizontalLayout_45">
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_60">
+                 <item>
+                  <widget class="QLabel" name="label_19">
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Telefone (1)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="tel1_provider">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                    </font>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_63">
+                 <item>
+                  <widget class="QLabel" name="label_20">
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Telefone (2)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="tel2_provider">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                    </font>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+             <item row="2" column="0">
               <layout class="QHBoxLayout" name="horizontalLayout_47">
                <item>
                 <layout class="QVBoxLayout" name="verticalLayout_57">
@@ -3089,315 +3521,8 @@ color:white;
                </item>
               </layout>
              </item>
-             <item row="5" column="0">
-              <layout class="QVBoxLayout" name="verticalLayout_59">
-               <property name="spacing">
-                <number>0</number>
-               </property>
-               <property name="topMargin">
-                <number>0</number>
-               </property>
-               <property name="rightMargin">
-                <number>0</number>
-               </property>
-               <item>
-                <widget class="QLabel" name="label_26">
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <pointsize>10</pointsize>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Observações&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                 </property>
-                 <property name="textFormat">
-                  <enum>Qt::AutoText</enum>
-                 </property>
-                 <property name="scaledContents">
-                  <bool>false</bool>
-                 </property>
-                 <property name="indent">
-                  <number>-1</number>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QTextEdit" name="obs_provider">
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="minimumSize">
-                  <size>
-                   <width>0</width>
-                   <height>100</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>100</height>
-                  </size>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <pointsize>12</pointsize>
-                  </font>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <spacer name="verticalSpacer_4">
-                 <property name="orientation">
-                  <enum>Qt::Vertical</enum>
-                 </property>
-                 <property name="sizeHint" stdset="0">
-                  <size>
-                   <width>20</width>
-                   <height>40</height>
-                  </size>
-                 </property>
-                </spacer>
-               </item>
-               <item>
-                <layout class="QHBoxLayout" name="horizontalLayout_56">
-                 <item>
-                  <widget class="QPushButton" name="cancel_provider">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="minimumSize">
-                    <size>
-                     <width>150</width>
-                     <height>70</height>
-                    </size>
-                   </property>
-                   <property name="font">
-                    <font>
-                     <pointsize>10</pointsize>
-                    </font>
-                   </property>
-                   <property name="text">
-                    <string/>
-                   </property>
-                   <property name="icon">
-                    <iconset resource="../icons/images.qrc">
-                     <normaloff>:/Icons/apagar.png</normaloff>:/Icons/apagar.png</iconset>
-                   </property>
-                   <property name="iconSize">
-                    <size>
-                     <width>32</width>
-                     <height>32</height>
-                    </size>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QPushButton" name="save_provider">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="minimumSize">
-                    <size>
-                     <width>150</width>
-                     <height>70</height>
-                    </size>
-                   </property>
-                   <property name="font">
-                    <font>
-                     <pointsize>10</pointsize>
-                    </font>
-                   </property>
-                   <property name="text">
-                    <string/>
-                   </property>
-                   <property name="icon">
-                    <iconset resource="../icons/images.qrc">
-                     <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
-                   </property>
-                   <property name="iconSize">
-                    <size>
-                     <width>32</width>
-                     <height>32</height>
-                    </size>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QPushButton" name="back_provider">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="minimumSize">
-                    <size>
-                     <width>150</width>
-                     <height>70</height>
-                    </size>
-                   </property>
-                   <property name="font">
-                    <font>
-                     <pointsize>10</pointsize>
-                    </font>
-                   </property>
-                   <property name="text">
-                    <string/>
-                   </property>
-                   <property name="icon">
-                    <iconset resource="../icons/images.qrc">
-                     <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
-                   </property>
-                   <property name="iconSize">
-                    <size>
-                     <width>32</width>
-                     <height>32</height>
-                    </size>
-                   </property>
-                  </widget>
-                 </item>
-                </layout>
-               </item>
-              </layout>
-             </item>
-             <item row="5" column="1">
+             <item row="6" column="1">
               <layout class="QVBoxLayout" name="verticalLayout_61"/>
-             </item>
-             <item row="3" column="0">
-              <layout class="QHBoxLayout" name="horizontalLayout_45">
-               <item>
-                <layout class="QVBoxLayout" name="verticalLayout_60">
-                 <item>
-                  <widget class="QLabel" name="label_19">
-                   <property name="font">
-                    <font>
-                     <pointsize>10</pointsize>
-                    </font>
-                   </property>
-                   <property name="text">
-                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Telefone (1)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QLineEdit" name="tel1_provider">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="minimumSize">
-                    <size>
-                     <width>0</width>
-                     <height>30</height>
-                    </size>
-                   </property>
-                   <property name="font">
-                    <font>
-                     <pointsize>10</pointsize>
-                    </font>
-                   </property>
-                  </widget>
-                 </item>
-                </layout>
-               </item>
-               <item>
-                <layout class="QVBoxLayout" name="verticalLayout_63">
-                 <item>
-                  <widget class="QLabel" name="label_20">
-                   <property name="font">
-                    <font>
-                     <pointsize>10</pointsize>
-                    </font>
-                   </property>
-                   <property name="text">
-                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Telefone (2)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QLineEdit" name="tel2_provider">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="minimumSize">
-                    <size>
-                     <width>0</width>
-                     <height>30</height>
-                    </size>
-                   </property>
-                   <property name="font">
-                    <font>
-                     <pointsize>10</pointsize>
-                    </font>
-                   </property>
-                  </widget>
-                 </item>
-                </layout>
-               </item>
-              </layout>
-             </item>
-             <item row="2" column="0">
-              <layout class="QVBoxLayout" name="verticalLayout_7">
-               <property name="leftMargin">
-                <number>0</number>
-               </property>
-               <property name="topMargin">
-                <number>0</number>
-               </property>
-               <item>
-                <widget class="QLabel" name="label_3">
-                 <property name="font">
-                  <font>
-                   <pointsize>10</pointsize>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>Email</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QLineEdit" name="email_provider">
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="minimumSize">
-                  <size>
-                   <width>400</width>
-                   <height>30</height>
-                  </size>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <pointsize>10</pointsize>
-                  </font>
-                 </property>
-                </widget>
-               </item>
-              </layout>
              </item>
             </layout>
            </widget>
@@ -3436,7 +3561,369 @@ color:white;
              <property name="bottomMargin">
               <number>45</number>
              </property>
-             <item row="3" column="3">
+             <item row="0" column="0" colspan="4">
+              <layout class="QVBoxLayout" name="verticalLayout_23">
+               <item>
+                <widget class="QLabel" name="label_31">
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Compromisso&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="com">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>400</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_32">
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Nome Do Cliente&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="cliente">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>400</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_25">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_72">
+                   <property name="spacing">
+                    <number>100</number>
+                   </property>
+                   <item>
+                    <widget class="QLabel" name="label_36">
+                     <property name="font">
+                      <font>
+                       <pointsize>10</pointsize>
+                      </font>
+                     </property>
+                     <property name="text">
+                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Tel(1)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="label_43">
+                     <property name="font">
+                      <font>
+                       <pointsize>10</pointsize>
+                      </font>
+                     </property>
+                     <property name="text">
+                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Tel(2)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="horizontalSpacer_31">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>40</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_73">
+                   <item>
+                    <widget class="QLineEdit" name="tel1_3">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>200</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>10</pointsize>
+                      </font>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLineEdit" name="tel2_3">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>180</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>200</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>10</pointsize>
+                      </font>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="horizontalSpacer_30">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>40</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_7">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_22">
+                   <property name="spacing">
+                    <number>30</number>
+                   </property>
+                   <item>
+                    <widget class="QLabel" name="label_28">
+                     <property name="font">
+                      <font>
+                       <pointsize>10</pointsize>
+                      </font>
+                     </property>
+                     <property name="text">
+                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;DATA AGENDAMENTO&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="label_29">
+                     <property name="font">
+                      <font>
+                       <pointsize>10</pointsize>
+                      </font>
+                     </property>
+                     <property name="text">
+                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;HORA&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="horizontalSpacer_29">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>40</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_70">
+                   <item>
+                    <widget class="QLineEdit" name="data">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>150</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>10</pointsize>
+                      </font>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLineEdit" name="hora">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="minimumSize">
+                      <size>
+                       <width>150</width>
+                       <height>30</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>10</pointsize>
+                      </font>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="horizontalSpacer_28">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>40</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_33">
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Endereço&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="end_2">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>400</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="2" column="3">
               <widget class="QSplitter" name="splitter">
                <property name="orientation">
                 <enum>Qt::Horizontal</enum>
@@ -3466,7 +3953,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/apagar.png</normaloff>:/Icons/apagar.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -3494,7 +3981,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/imprimir.png</normaloff>:/Icons/imprimir.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -3526,7 +4013,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/task.png</normaloff>:/Icons/task.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -3560,7 +4047,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -3575,7 +4062,23 @@ color:white;
                </widget>
               </widget>
              </item>
-             <item row="3" column="0" colspan="2">
+             <item row="2" column="2">
+              <spacer name="horizontalSpacer_21">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Fixed</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>100</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="2" column="0" colspan="2">
               <layout class="QVBoxLayout" name="verticalLayout_29">
                <item>
                 <widget class="QLabel" name="label_30">
@@ -3591,130 +4094,11 @@ color:white;
                </item>
                <item>
                 <widget class="QTextEdit" name="obs_agenda">
-                 <property name="font">
-                  <font>
-                   <pointsize>10</pointsize>
-                  </font>
-                 </property>
-                </widget>
-               </item>
-              </layout>
-             </item>
-             <item row="1" column="0" colspan="4">
-              <layout class="QVBoxLayout" name="verticalLayout_23">
-               <item>
-                <widget class="QLabel" name="label_31">
-                 <property name="font">
-                  <font>
-                   <pointsize>10</pointsize>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Compromisso&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QLineEdit" name="com">
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <pointsize>10</pointsize>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string/>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QLabel" name="label_32">
-                 <property name="font">
-                  <font>
-                   <pointsize>10</pointsize>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Nome Do Cliente&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QLineEdit" name="cliente">
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <pointsize>10</pointsize>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string/>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QLabel" name="label_33">
-                 <property name="font">
-                  <font>
-                   <pointsize>10</pointsize>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Endereço&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QLineEdit" name="end_2">
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <pointsize>10</pointsize>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string/>
-                 </property>
-                </widget>
-               </item>
-              </layout>
-             </item>
-             <item row="0" column="1">
-              <layout class="QVBoxLayout" name="verticalLayout_31">
-               <item>
-                <widget class="QLabel" name="label_29">
-                 <property name="font">
-                  <font>
-                   <pointsize>10</pointsize>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;HORA&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QLineEdit" name="hora">
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
+                 <property name="minimumSize">
+                  <size>
+                   <width>400</width>
+                   <height>0</height>
+                  </size>
                  </property>
                  <property name="font">
                   <font>
@@ -3724,131 +4108,6 @@ color:white;
                 </widget>
                </item>
               </layout>
-             </item>
-             <item row="2" column="0" colspan="4">
-              <layout class="QHBoxLayout" name="horizontalLayout_6">
-               <item>
-                <layout class="QVBoxLayout" name="verticalLayout_24">
-                 <item>
-                  <widget class="QLabel" name="label_34">
-                   <property name="font">
-                    <font>
-                     <pointsize>10</pointsize>
-                    </font>
-                   </property>
-                   <property name="text">
-                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;1 Telefone&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QLineEdit" name="tel1_2">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="font">
-                    <font>
-                     <pointsize>10</pointsize>
-                    </font>
-                   </property>
-                   <property name="text">
-                    <string/>
-                   </property>
-                  </widget>
-                 </item>
-                </layout>
-               </item>
-               <item>
-                <layout class="QVBoxLayout" name="verticalLayout_25">
-                 <item>
-                  <widget class="QLabel" name="label_35">
-                   <property name="font">
-                    <font>
-                     <pointsize>10</pointsize>
-                    </font>
-                   </property>
-                   <property name="text">
-                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;2 Telefone&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QLineEdit" name="tel2_2">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="minimumSize">
-                    <size>
-                     <width>180</width>
-                     <height>0</height>
-                    </size>
-                   </property>
-                   <property name="font">
-                    <font>
-                     <pointsize>10</pointsize>
-                    </font>
-                   </property>
-                   <property name="text">
-                    <string/>
-                   </property>
-                  </widget>
-                 </item>
-                </layout>
-               </item>
-              </layout>
-             </item>
-             <item row="0" column="0">
-              <layout class="QVBoxLayout" name="verticalLayout_30">
-               <item>
-                <widget class="QLabel" name="label_28">
-                 <property name="font">
-                  <font>
-                   <pointsize>10</pointsize>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;DATA AGENDAMENTO&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QLineEdit" name="data">
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <pointsize>10</pointsize>
-                  </font>
-                 </property>
-                </widget>
-               </item>
-              </layout>
-             </item>
-             <item row="3" column="2">
-              <spacer name="horizontalSpacer_21">
-               <property name="orientation">
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeType">
-                <enum>QSizePolicy::Fixed</enum>
-               </property>
-               <property name="sizeHint" stdset="0">
-                <size>
-                 <width>300</width>
-                 <height>20</height>
-                </size>
-               </property>
-              </spacer>
              </item>
             </layout>
            </widget>
@@ -4171,7 +4430,7 @@ color:white;
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset resource="../icons/images.qrc">
+                      <iconset>
                        <normaloff>:/Icons/add_money.png</normaloff>:/Icons/add_money.png</iconset>
                      </property>
                      <property name="iconSize">
@@ -4199,7 +4458,7 @@ color:white;
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset resource="../icons/images.qrc">
+                      <iconset>
                        <normaloff>:/Icons/less_money.png</normaloff>:/Icons/less_money.png</iconset>
                      </property>
                      <property name="iconSize">
@@ -4216,7 +4475,7 @@ color:white;
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset resource="../icons/images.qrc">
+                      <iconset>
                        <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                      </property>
                      <property name="iconSize">
@@ -4663,7 +4922,7 @@ color:white;
                   <string/>
                  </property>
                  <property name="icon">
-                  <iconset resource="../icons/images.qrc">
+                  <iconset>
                    <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                  </property>
                  <property name="iconSize">
@@ -4685,7 +4944,7 @@ color:white;
                   <string/>
                  </property>
                  <property name="icon">
-                  <iconset resource="../icons/images.qrc">
+                  <iconset>
                    <normaloff>:/Icons/apagar.png</normaloff>:/Icons/apagar.png</iconset>
                  </property>
                  <property name="iconSize">
@@ -4707,7 +4966,7 @@ color:white;
                   <string/>
                  </property>
                  <property name="icon">
-                  <iconset resource="../icons/images.qrc">
+                  <iconset>
                    <normaloff>:/Icons/add(1).png</normaloff>:/Icons/add(1).png</iconset>
                  </property>
                  <property name="iconSize">
@@ -4839,7 +5098,7 @@ color:white;
                   <string/>
                  </property>
                  <property name="icon">
-                  <iconset resource="../icons/images.qrc">
+                  <iconset>
                    <normaloff>:/Icons/calculator.png</normaloff>:/Icons/calculator.png</iconset>
                  </property>
                  <property name="iconSize">
@@ -4887,7 +5146,7 @@ color:white;
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset resource="../icons/images.qrc">
+                      <iconset>
                        <normaloff>:/Icons/imprimir.png</normaloff>:/Icons/imprimir.png</iconset>
                      </property>
                      <property name="iconSize">
@@ -4915,7 +5174,7 @@ color:white;
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset resource="../icons/images.qrc">
+                      <iconset>
                        <normaloff>:/Icons/payment.png</normaloff>:/Icons/payment.png</iconset>
                      </property>
                      <property name="iconSize">
@@ -4937,7 +5196,7 @@ color:white;
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset resource="../icons/images.qrc">
+                      <iconset>
                        <normaloff>:/Icons/check.png</normaloff>:/Icons/check.png</iconset>
                      </property>
                      <property name="iconSize">
@@ -5016,7 +5275,7 @@ color:white;
                 <string notr="true">background-color: rgb(54, 54, 54);</string>
                </property>
                <property name="currentIndex">
-                <number>1</number>
+                <number>0</number>
                </property>
                <widget class="QWidget" name="tab_5">
                 <attribute name="title">
@@ -5601,7 +5860,7 @@ color:white;
                         <string/>
                        </property>
                        <property name="icon">
-                        <iconset resource="../icons/images.qrc">
+                        <iconset>
                          <normaloff>:/Icons/add_cliente.png</normaloff>:/Icons/add_cliente.png</iconset>
                        </property>
                        <property name="iconSize">
@@ -5635,7 +5894,7 @@ color:white;
                         <string/>
                        </property>
                        <property name="icon">
-                        <iconset resource="../icons/images.qrc">
+                        <iconset>
                          <normaloff>:/Icons/apagar.png</normaloff>:/Icons/apagar.png</iconset>
                        </property>
                        <property name="iconSize">
@@ -5669,7 +5928,7 @@ color:white;
                         <string/>
                        </property>
                        <property name="icon">
-                        <iconset resource="../icons/images.qrc">
+                        <iconset>
                          <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                        </property>
                        <property name="iconSize">
@@ -5703,7 +5962,7 @@ color:white;
                         <string/>
                        </property>
                        <property name="icon">
-                        <iconset resource="../icons/images.qrc">
+                        <iconset>
                          <normaloff>:/Icons/next.png</normaloff>:/Icons/next.png</iconset>
                        </property>
                        <property name="iconSize">
@@ -6123,7 +6382,7 @@ color:white;
                         <string/>
                        </property>
                        <property name="icon">
-                        <iconset resource="../icons/images.qrc">
+                        <iconset>
                          <normaloff>:/Icons/add.png</normaloff>:/Icons/add.png</iconset>
                        </property>
                        <property name="iconSize">
@@ -6157,7 +6416,7 @@ color:white;
                         <string/>
                        </property>
                        <property name="icon">
-                        <iconset resource="../icons/images.qrc">
+                        <iconset>
                          <normaloff>:/Icons/Limpar.png</normaloff>:/Icons/Limpar.png</iconset>
                        </property>
                        <property name="iconSize">
@@ -6185,7 +6444,7 @@ color:white;
                         <string/>
                        </property>
                        <property name="icon">
-                        <iconset resource="../icons/images.qrc">
+                        <iconset>
                          <normaloff>:/Icons/apagar.png</normaloff>:/Icons/apagar.png</iconset>
                        </property>
                        <property name="iconSize">
@@ -6208,7 +6467,7 @@ color:white;
                         <string/>
                        </property>
                        <property name="icon">
-                        <iconset resource="../icons/images.qrc">
+                        <iconset>
                          <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                        </property>
                        <property name="iconSize">
@@ -6345,6 +6604,9 @@ color:white;
                  </item>
                  <item>
                   <widget class="QLineEdit" name="nome_pdf">
+                   <property name="enabled">
+                    <bool>false</bool>
+                   </property>
                    <property name="sizePolicy">
                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                      <horstretch>0</horstretch>
@@ -6388,6 +6650,9 @@ color:white;
                  </item>
                  <item>
                   <widget class="QLineEdit" name="cpf_pdf">
+                   <property name="enabled">
+                    <bool>false</bool>
+                   </property>
                    <property name="sizePolicy">
                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                      <horstretch>0</horstretch>
@@ -6431,6 +6696,9 @@ color:white;
                   <layout class="QHBoxLayout" name="horizontalLayout_60">
                    <item>
                     <widget class="QLineEdit" name="end_pdf">
+                     <property name="enabled">
+                      <bool>false</bool>
+                     </property>
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                        <horstretch>0</horstretch>
@@ -6560,6 +6828,9 @@ color:white;
                   <layout class="QHBoxLayout" name="horizontalLayout_62">
                    <item>
                     <widget class="QLineEdit" name="brr_pdf">
+                     <property name="enabled">
+                      <bool>false</bool>
+                     </property>
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                        <horstretch>0</horstretch>
@@ -6581,6 +6852,9 @@ color:white;
                    </item>
                    <item>
                     <widget class="QLineEdit" name="cdd_pdf">
+                     <property name="enabled">
+                      <bool>false</bool>
+                     </property>
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
                        <horstretch>0</horstretch>
@@ -6602,6 +6876,9 @@ color:white;
                    </item>
                    <item>
                     <widget class="QLineEdit" name="uf">
+                     <property name="enabled">
+                      <bool>false</bool>
+                     </property>
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                        <horstretch>0</horstretch>
@@ -6623,6 +6900,9 @@ color:white;
                    </item>
                    <item>
                     <widget class="QLineEdit" name="cep">
+                     <property name="enabled">
+                      <bool>false</bool>
+                     </property>
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                        <horstretch>0</horstretch>
@@ -6710,6 +6990,9 @@ color:white;
                   <layout class="QHBoxLayout" name="horizontalLayout_64">
                    <item>
                     <widget class="QLineEdit" name="tel1_pdf">
+                     <property name="enabled">
+                      <bool>false</bool>
+                     </property>
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                        <horstretch>0</horstretch>
@@ -6731,6 +7014,9 @@ color:white;
                    </item>
                    <item>
                     <widget class="QLineEdit" name="tel2_pdf">
+                     <property name="enabled">
+                      <bool>false</bool>
+                     </property>
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                        <horstretch>0</horstretch>
@@ -6752,6 +7038,9 @@ color:white;
                    </item>
                    <item>
                     <widget class="QLineEdit" name="email_pdf">
+                     <property name="enabled">
+                      <bool>false</bool>
+                     </property>
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                        <horstretch>0</horstretch>
@@ -6813,7 +7102,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/apagar.png</normaloff>:/Icons/apagar.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -6847,7 +7136,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/editar.png</normaloff>:/Icons/editar.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -6881,7 +7170,7 @@ color:white;
                     <string/>
                    </property>
                    <property name="icon">
-                    <iconset resource="../icons/images.qrc">
+                    <iconset>
                      <normaloff>:/Icons/back.png</normaloff>:/Icons/back.png</iconset>
                    </property>
                    <property name="iconSize">
@@ -6913,7 +7202,7 @@ color:white;
      <x>0</x>
      <y>0</y>
      <width>1672</width>
-     <height>26</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuCONFIG">

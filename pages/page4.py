@@ -14,17 +14,5 @@ def task(self):
         self.search_task.textChanged.connect(lambda: search('agenda', self.search_agenda, self.table_agenda))
 
 def cadastro_agenda(self):
-    comp = self.com.text()
-    nm = self.cliente.text()
-    end = self.end_2.text()
-    tel1 = self.tel1.text()
-    tel2 = self.tel2.text()
-    obs = self.obs_agenda.toPlainText()
-    data = self.data.text()
-    hora = self.hora.text()
-    lista = [(comp,nm,tel1,tel2,data,hora,end,dt,obs)]
-    insert_sql('agenda',lista)
-    show_messagebox(self,"CADASTRADO", " Compromisso Cadastrado Com Sucesso")
-    clear()
-    update_table('agenda', self.table_agenda)
-    self.pages.setCurrentWidget(self.agenda)
+    cadastro(self, 'agenda', 'Comprimisso Cadastrado', self.table_agenda, self.agenda)
+ 

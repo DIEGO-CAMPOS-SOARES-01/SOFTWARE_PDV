@@ -91,7 +91,7 @@ def info():
 	else:
 		c.execute("""INSERT  INTO info 
 		VALUES 
-		(0,'NOME DA LOJA', 'X.XXX.XXX/0001-XX', 'ENDEREÇO DA LOJA', 'Bairro','Cidade','UF','CEP','(21)99999-9999','email@gamil.com')""")
+		(0,'NOME DA LOJA', 'X.XXX.XXX/0001-XX', 'ENDEREÇO DA LOJA', 'Bairro','Cidade','UF','CEP','(21)99999-9999','(21)99999-9999','email@gamil.com')""")
 		con.commit()
 
 def select(table):
@@ -103,7 +103,7 @@ def select(table):
 def insert_sql(table,values):
 	c.execute(f"select group_concat(name,',') from pragma_table_info('{table}')")
 	columns = c.fetchall()
-	c.execute(f"insert into {table} ({columns[0][0][7:]}) values {values[0]}")
+	c.execute(f"insert into {table} ({columns[0][0][7:]}) values {values}")
 	con.commit()
 
 

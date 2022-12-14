@@ -1,10 +1,10 @@
 from PyQt5.QtWidgets import *
 from PyQt5 import uic
-from pages import page1, page2,page4, page5, page6,page7
+from pages import page1, page2,page4, page5, page6,page7,page8
 from packages.functions import *
 from packages import icons
 # from ui_tela import Ui_widget
-from qtstyles import StylePicker
+
 
 
 app = QApplication([])
@@ -23,6 +23,7 @@ class Main(QMainWindow):
         page6.product(self)
         page5.cashier(self)
         page7.os(self)
+        page8.edit_pdf(self)
 
 if __name__ == "__main__":
     import sys
