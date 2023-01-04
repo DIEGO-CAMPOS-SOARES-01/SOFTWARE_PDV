@@ -23,6 +23,6 @@ def cadastro_fornecedor(self):
     lista = [(nm,tel1,tel2,end,cmpl,email,obs,dt)]
     insert_sql('fornecedor',lista)
     show_messagebox(self,"CADASTRADO", " Fornecedor Cadastrado Com Sucesso")
-    clear()
+    clear(self)
     update_table('fornecedor', self.table_fornecedor)
     self.pages.setCurrentWidget(self.fornecedor)

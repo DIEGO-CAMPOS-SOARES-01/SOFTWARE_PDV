@@ -103,7 +103,7 @@ def select(table):
 def insert_sql(table,values):
 	c.execute(f"select group_concat(name,',') from pragma_table_info('{table}')")
 	columns = c.fetchall()
-	c.execute(f"insert into {table} ({columns[0][0][7:]}) values {values}")
+	c.execute(f"insert into {table} ({columns[0][0][7:]}) values {values[0]}")
 	con.commit()
 
 

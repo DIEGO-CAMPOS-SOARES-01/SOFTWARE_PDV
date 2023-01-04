@@ -55,7 +55,7 @@ def save_client(self,confirm):
     if confirm == True:
         insert_sql('Cliente',lista)
         show_messagebox(self,"CADASTRADO", " Cliente Cadastrado Com Sucesso")
-        clear()
+        clear(self)
         update_table('Cliente', self.table_Cliente)
         self.tab_os.setCurrentIndex(1)
     else:

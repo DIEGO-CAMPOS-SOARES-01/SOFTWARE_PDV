@@ -104,27 +104,7 @@ def search(collumn, line, uitable):
                 item = QTableWidgetItem(f"{rows[i][j]}")
                 uitable.setItem(i, j, item)
 
-def get_text(self):
-    result = []
-    current = self.pages.currentWidget()
-    for i in current.findChildren(QLineEdit):
-        result.append(i.text())
-    result.append(dt)
-    for i in current.findChildren(QTextEdit):
-        if i:
-            result.append(i.toPlainText())
-    
-    return tuple(result)
-
 def clear(self):
     current = self.pages.currentWidget()
     for i in current.findChildren(QLineEdit):
         i.clear()
-
-def cadastro(self,collumn,msg,table,page):
-    values = get_text(self)
-    insert_sql(collumn,values)
-    show_messagebox(self,"CADASTRADO", f"{msg} Com Sucesso")
-    clear(self)
-    update_table(collumn, table)
-    self.pages.setCurrentWidget(page)
