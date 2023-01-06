@@ -76,7 +76,6 @@ def update(self,  column, table):
             update_sql(column, label, info, codigo)
             update_table(column, table)
             show_messagebox(self,'ATUALIZADO', "Informaçao Atualizada Com Sucesso")
-        
         except:
             show_messagebox(self,'ERROR', "Selecione Informaçao A ser Editada")
         
